@@ -9,11 +9,9 @@ a:focus,
 a:visited {
   color: #fff;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 a:not(:hover) {
   text-decoration: underline;
 }
@@ -34,6 +32,36 @@ main {
   max-width: 72em;
 }
 
+article {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+}
+article:not(:last-child) {
+  border-bottom: 1px solid #282b3b;
+}
+
+kbd {
+  background-color: #282b3b;
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+}
+
+.intro-title {
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+.step-title {
+  color: #050610;
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 0.1em 0.5em;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
 .step {
   display: flex;
   flex-direction: column;
@@ -41,6 +69,7 @@ main {
 
 .step-diagram {
   max-height: 50vh;
+  text-align: center;
 }
 
 .step-diagram svg {
