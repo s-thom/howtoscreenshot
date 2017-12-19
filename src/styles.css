@@ -47,6 +47,26 @@ main {
   height: 100%;
 }
 
+.svg-outline,
+.svg-outline-dark {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+.svg-outline-dark {
+  stroke: #050610;
+}
+
+.svg-fill {
+  fill: #f1f2f2;
+}
+.svg-fill-mid {
+  fill: #282b3b;
+}
+.svg-fill-dark {
+  fill: #050610;
+}
+
 @media screen and (min-device-width: 768px) {
   .step {
     flex-direction: row;
