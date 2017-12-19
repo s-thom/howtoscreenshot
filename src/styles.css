@@ -39,6 +39,13 @@ main {
   flex-direction: column;
 }
 
+.step-diagram {
+  max-height: 50vh;
+}
+
+.step-diagram svg {
+  height: 100%;
+}
 
 @media screen and (min-device-width: 768px) {
   .step {
