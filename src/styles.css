@@ -74,6 +74,7 @@ kbd {
 
 .step-diagram svg {
   height: 100%;
+  max-height: inherit;
 }
 
 .svg-outline,
