@@ -17,6 +17,8 @@ a:not(:hover) {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin: 0;
   background-color: #050610;
@@ -30,6 +32,18 @@ main {
   margin: 0 auto;
   padding: 0.5em;
   max-width: 72em;
+  flex-grow: 1;
+}
+
+footer {
+  font-size: 0.8em;
+  border-top: 1px solid #282b3b;
+  opacity: 0.5;
+}
+
+footer p {
+  margin: 0.1em;
+  text-align: center;
 }
 
 article {
