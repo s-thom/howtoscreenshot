@@ -1,8 +1,9 @@
 /* eslint-env serviceworker, browser */
 /* eslint-disable no-restricted-globals */
-const CACHE = 'v1';
+const CACHE = 'v2';
 const LOGTAG = `SW:${CACHE}:`;
 const TIMEOUT = 400;
+const CACHE_FIRST = false;
 
 // Get resource from network
 function fromNetwork(request) {
@@ -57,11 +58,18 @@ self.addEventListener('install', (event) => {
 
 // Fetch from network, use cache as fallback
 self.addEventListener('fetch', (event) => {
-  console.log(`${LOGTAG} FETCHING ${event.request.url}`);
-  // Try network and if it fails, go for the cached copy.
-  event
-    .respondWith(fromNetwork(event.request)
-      .catch(() => fromCache(event.request)));
+  console.log(`${LOGTAG} FETCHING ${event.request.url} (${CACHE_FIRST ? 'cache' : 'net'} first)`);
+
+  let prom;
+  if (CACHE_FIRST) {
+    prom = fromCache(event.request)
+      .catch(() => fromNetwork(event.request));
+  } else {
+    prom = fromNetwork(event.request)
+      .catch(() => fromCache(event.request));
+  }
+
+  event.respondWith(prom);
 });
 
 // Clean up old caches once this version is working
