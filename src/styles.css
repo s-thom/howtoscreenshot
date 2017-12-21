@@ -34,6 +34,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #282b3b;
   padding: 0.5em;
+}
 
 header a {
   text-decoration: none !important;
@@ -57,12 +58,19 @@ header nav ul {
 }
 
 header nav li {
+  height: 5em;
+  width: 5em;
   padding: 0.5em;
   text-align: center;
 }
 
 header nav li p {
   margin: 0;
+}
+
+header nav a {
+  width: 100%;
+  height: 100%;
 }
 
 header nav svg {
