@@ -47,15 +47,18 @@ header a {
 
 .page-title h1 {
   font-weight: 400;
+  margin: 0.5em;
 }
 
 header nav ul {
+  height: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   font-size: 0.8em;
 }
 
