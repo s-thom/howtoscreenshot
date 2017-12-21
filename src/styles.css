@@ -17,6 +17,8 @@ a:not(:hover) {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin: 0;
   background-color: #050610;
@@ -26,10 +28,87 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid #282b3b;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+
+header a {
+  text-decoration: none !important;
+}
+
+.page-title {
+  flex-grow: 1;
+}
+
+.page-title h1 {
+  font-weight: 400;
+  margin: 0.5em;
+}
+
+header nav ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+header nav li {
+  height: 5em;
+  width: 5em;
+  padding: 0.5em;
+  transform: scale(1);
+  transition: transform ease-out 0.2s;
+  text-align: center;
+}
+
+header nav li:hover {
+  transform: scale(1.1);
+}
+
+header nav li p {
+  margin: 0;
+}
+
+header nav a {
+  width: 100%;
+  height: 100%;
+}
+
+header nav svg {
+  height: 2em;
+  width: 2em;
+}
+
+header nav .current {
+  background-color: #282b3b;
+}
+
 main {
   margin: 0 auto;
   padding: 0.5em;
   max-width: 72em;
+  flex-grow: 1;
+}
+
+footer {
+  font-size: 0.8em;
+  border-top: 1px solid #282b3b;
+  opacity: 0.5;
+}
+
+footer p {
+  margin: 0.1em;
+  text-align: center;
 }
 
 article {
