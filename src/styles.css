@@ -34,6 +34,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #282b3b;
   padding: 0.5em;
+  flex-wrap: wrap;
 }
 
 header a {
@@ -54,6 +55,7 @@ header nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   font-size: 0.8em;
 }
 
