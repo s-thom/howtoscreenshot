@@ -8,10 +8,16 @@ This project is still a WIP. I hope that one day it is not.
 
 Contributions are welcome. Fork, make changes, create a Pull Request.
 
+A few points to consider as you make changes:
+
 * The site must work on mobile devices.
-* The site must work offline (using service workers)
-  * This includes updating the CACHE nmumber in sw.js
-* The site must work without Javascript enabled
+* The site must work offline (using service workers).
+  * This includes updating the CACHE nmumber in sw.js if it is changed.
+* The site must work without Javascript enabled.
+  * Only scripts should be to register service worker, service worker itself, and analytics (in the future).
+* Reduce network requests.
+  * Don't use &lt;img/&gt; tags, use inline &lt;svg&gt; instead.
+
 ### Things to work on
 
 #### Features
