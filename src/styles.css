@@ -50,7 +50,12 @@ header a {
   margin: 0.5em;
 }
 
-header nav ul {
+.site-title {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+nav ul {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -60,9 +65,10 @@ header nav ul {
   flex-wrap: wrap;
   align-items: center;
   font-size: 0.8em;
+  justify-content: center;
 }
 
-header nav li {
+nav li {
   height: 5em;
   width: 5em;
   padding: 0.5em;
@@ -71,26 +77,31 @@ header nav li {
   text-align: center;
 }
 
-header nav li:hover {
+nav li:hover {
   transform: scale(1.1);
 }
 
-header nav li p {
+nav li p {
   margin: 0;
 }
 
-header nav a {
+nav a {
   width: 100%;
   height: 100%;
+  text-decoration: none !important;
 }
 
-header nav svg {
+nav svg {
   height: 2em;
   width: 2em;
 }
 
-header nav .current {
+nav .current {
   background-color: #282b3b;
+}
+
+nav.fullsize {
+  font-size: 2em;
 }
 
 main {
@@ -177,7 +188,17 @@ kbd {
   fill: #050610;
 }
 
+@media screen and (min-device-width: 440px) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
 @media screen and (min-device-width: 768px) {
+  .site-title {
+    font-size: 3em;
+  }
+
   .step {
     flex-direction: row;
   }
