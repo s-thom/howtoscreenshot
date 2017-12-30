@@ -36,16 +36,17 @@ A few points to consider as you make changes:
 * [ ] Better diagrams
 * [ ] Translation
 * [ ] Analytics (may want in final release) (?)
+* [ ] OpenGraph/Twitter meta tags
 
 #### Platforms
 
 * [x] Windows
-* [ ] Mac
+* [x] Mac
 * [ ] Linux (?)
 * [ ] Android
 * [ ] iOS
 * [ ] XBox
 * [ ] PS4
-* [ ] Steam (?)
+* [x] Steam (?)
 * [ ] 3rd party programs (?)
 * [ ] Webpages (browser extension) (?)
