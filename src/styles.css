@@ -65,6 +65,7 @@ nav ul {
   flex-wrap: wrap;
   align-items: center;
   font-size: 0.8em;
+  justify-content: center;
 }
 
 nav li {
