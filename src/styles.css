@@ -50,6 +50,11 @@ header a {
   margin: 0.5em;
 }
 
+.site-title {
+  text-align: center;
+  font-size: 3em;
+}
+
 header nav ul {
   height: 100%;
   margin: 0;
