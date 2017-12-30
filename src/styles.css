@@ -52,7 +52,7 @@ header a {
 
 .site-title {
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 nav ul {
@@ -188,7 +188,17 @@ kbd {
   fill: #050610;
 }
 
+@media screen and (min-device-width: 440px) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
 @media screen and (min-device-width: 768px) {
+  .site-title {
+    font-size: 3em;
+  }
+
   .step {
     flex-direction: row;
   }
