@@ -2,8 +2,6 @@
 
 Because after years of computing, some people just don't know how.
 
-This project is still a WIP. I hope that one day it is not.
-
 ## Why have another "How to screenshot" website?
 
 [take-a-screenshot](https://www.take-a-screenshot.org/)
@@ -35,7 +33,7 @@ A few points to consider as you make changes:
 * [x] Offline (service worker)
 * [ ] Better diagrams
 * [ ] Translation
-* [ ] Analytics (may want in final release) (?)
+* [x] Analytics (may want in final release) (?)
 * [ ] OpenGraph/Twitter meta tags
 
 #### Platforms
