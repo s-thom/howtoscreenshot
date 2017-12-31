@@ -45,8 +45,8 @@ A few points to consider as you make changes:
 * [ ] Linux (?)
 * [ ] Android
 * [ ] iOS
-* [ ] XBox
-* [ ] PS4
+* [x] XBox
+* [x] PS4
 * [x] Steam (?)
 * [ ] 3rd party programs (?)
 * [ ] Webpages (browser extension) (?)
