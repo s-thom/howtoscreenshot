@@ -1,0 +1,31 @@
+{
+  "short_name": "Screenshot",
+  "name": "How to Screenshot",
+  "description": "Learn how to take screenshots on many major platforms.",
+  "theme_color": "#050610",
+  "background_color": "#050610",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon/48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icon/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icon/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon/512-manifest.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?launcher=true"
+}
