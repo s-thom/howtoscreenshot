@@ -43,8 +43,8 @@ A few points to consider as you make changes:
 * [x] Windows
 * [x] Mac
 * [ ] Linux (?)
-* [ ] Android
-* [ ] iOS
+* [x] Android
+* [x] iOS
 * [ ] XBox
 * [ ] PS4
 * [x] Steam (?)
