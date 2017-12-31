@@ -1,7 +1,7 @@
 {
   "short_name": "Screenshot",
   "name": "How to Screenshot",
-  "description": "A website to help you take screenshots",
+  "description": "Learn how to take screenshots on many major platforms.",
   "theme_color": "#050610",
   "background_color": "#050610",
   "display": "standalone",
