@@ -34,13 +34,13 @@ A few points to consider as you make changes:
 * [ ] Better diagrams
 * [ ] Translation
 * [x] Analytics (may want in final release) (?)
-* [ ] OpenGraph/Twitter meta tags
+* [x] OpenGraph/Twitter meta tags
 
 #### Platforms
 
 * [x] Windows
 * [x] Mac
-* [ ] Linux (?)
+* [x] Linux (?)
 * [x] Android
 * [x] iOS
 * [x] XBox
