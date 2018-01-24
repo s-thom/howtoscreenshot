@@ -1,8 +1,8 @@
 /* eslint-env serviceworker, browser */
 /* eslint-disable no-restricted-globals */
-const CACHE = 'v2';
+const CACHE = 'v3';
 const LOGTAG = `SW:${CACHE}:`;
-const TIMEOUT = 400;
+const TIMEOUT = 1000;
 const CACHE_FIRST = false;
 
 // Get resource from network
