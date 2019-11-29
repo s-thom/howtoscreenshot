@@ -5,7 +5,8 @@
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\""
+    "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\"",
+    "workbox": "workbox generateSW workbox-config.js"
   },
   "author": "Stuart Thomson",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "workbox-cli": "^4.3.1"
   }
 }
