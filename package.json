@@ -4,13 +4,16 @@
   "description": "A website help people screenshot things",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\""
   },
   "author": "Stuart Thomson",
   "license": "MIT",
   "devDependencies": {
+    "@prettier/plugin-xml": "^0.3.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "prettier": "^1.19.1"
   }
 }

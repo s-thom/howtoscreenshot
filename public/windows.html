@@ -1,308 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#050610" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <title>How to Screenshot on Windows</title>
-  <meta name="description" content="Learn how to take screenshots on Windows.">
-  <!-- Meta -->
-  <link href="/manifest.json" rel="manifest" />
-  <meta property="og:title" content="How to Screenshot on Windows" />
-  <meta property="og:description" content="Learn how to take screenshots on Windows." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://screenshot.help/windows" />
-  <meta property="og:image" content="https://screenshot.help/img/banner-windows.png" />
-  <!-- Icons -->
-  <link href="/icon/48.png" rel="icon" sizes="48x48" />
-  <link href="/icon/96.png" rel="icon" sizes="96x96" />
-  <link href="/icon/192.png" rel="icon" sizes="192x192" />
-  <!-- Styles -->
-  <link href="/styles.css" rel="stylesheet" />
-  <!-- Scripts -->
-  <script src="/script.js" async></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55893575-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050610" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>How to Screenshot on Windows</title>
+    <meta
+      name="description"
+      content="Learn how to take screenshots on Windows."
+    />
+    <!-- Meta -->
+    <link href="/manifest.json" rel="manifest" />
+    <meta property="og:title" content="How to Screenshot on Windows" />
+    <meta
+      property="og:description"
+      content="Learn how to take screenshots on Windows."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://screenshot.help/windows" />
+    <meta
+      property="og:image"
+      content="https://screenshot.help/img/banner-windows.png"
+    />
+    <!-- Icons -->
+    <link href="/icon/48.png" rel="icon" sizes="48x48" />
+    <link href="/icon/96.png" rel="icon" sizes="96x96" />
+    <link href="/icon/192.png" rel="icon" sizes="192x192" />
+    <!-- Styles -->
+    <link href="/styles.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="/script.js" async></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-55893575-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-55893575-13');
-  </script>
-</head>
-<body>
-  <header>
-    <div class="page-title">
-      <a href="/">
-        <h1>How to Screenshot</h1>
-      </a>
-    </div>
-    <nav>
-      <ul>
-        <li class="current">
-          <a href="/windows">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
-              <path class="svg-fill" d="M0,12.6l36-4.9v34.7H0 M40.3,6.9L88,0v42H40.3 M0,45.9h36v34.8l-36-5 M40.3,46.4H88V88l-47.7-6.7"/>
-            </svg>
-            <p>Windows</p>
-          </a>
-        </li>
-        <li>
-          <a href="/mac">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
-              <path class="svg-fill" d="M153.6,132.5c-2.6,5.9-5.6,11.4-9.1,16.4c-4.8,6.9-8.7,11.6-11.8,14.2c-4.7,4.3-9.7,6.5-15.1,6.7 c-3.9,0-8.5-1.1-14-3.3c-5.5-2.2-10.5-3.3-15-3.3c-4.8,0-10,1.1-15.5,3.3c-5.5,2.2-10,3.4-13.4,3.5c-5.2,0.2-10.3-2.1-15.5-6.8 c-3.3-2.9-7.4-7.8-12.3-14.7c-5.3-7.4-9.6-16-13-25.9c-3.6-10.6-5.5-20.9-5.5-30.8c0-11.4,2.5-21.2,7.4-29.5 c3.9-6.6,9-11.8,15.5-15.7s13.4-5.8,20.9-5.9c4.1,0,9.5,1.3,16.2,3.8c6.7,2.5,11,3.8,12.8,3.8c1.4,0,6.2-1.5,14.2-4.4 c7.6-2.7,14.1-3.9,19.4-3.4c14.3,1.2,25,6.8,32.2,17c-12.8,7.8-19.1,18.6-19,32.5c0.1,10.8,4.1,19.9,11.8,27 c3.5,3.3,7.4,5.9,11.8,7.7C155.7,127.3,154.7,130,153.6,132.5L153.6,132.5z M120.8,3.4c0,8.5-3.1,16.4-9.3,23.8 C104,35.9,95,41,85.2,40.2c-0.1-1-0.2-2.1-0.2-3.2c0-8.2,3.6-16.9,9.9-24c3.2-3.6,7.2-6.6,12-9c4.8-2.4,9.4-3.7,13.7-3.9 C120.7,1.1,120.8,2.3,120.8,3.4L120.8,3.4z"/>
-            </svg>
-            <p>Mac</p>
-          </a>
-        </li>
-        <li>
-          <a href="/linux">
-            <svg viewBox="0 0 280 330" xmlns="http://www.w3.org/2000/svg">
-              <path class="svg-fill" d="M266.1 271c-.9-6.2-11.6-10.8-15.4-14.6-7.2-7.2-3.6-22-14.1-25.2 15.9-26.1-4.7-66.9-22.1-87.1-9.1-10.5-13.8-21.7-20-33.9-7.5-14.8-3.9-31.7-6.4-47.8-4.6-30.2-36.5-53-66.1-39.1-30.3 14.2-23.2 57.9-21 85 1.9 23-20.1 33.4-28.9 52.7-5 10.9-7 22.8-12.5 33.7-2.5 5-6 9.9-7.7 15.2-1.8 5.5.7 9.7.1 14.7-1.4 11.1-7.5 13.2-17.7 14.2-12 1.2-13.2 6.5-12.3 17.7.5 5.7 1.5 11.4.3 17.1-1 4.8-5.8 10.2-5.3 15.1.9 9.3 15.6 10.6 22.9 12.6 11.3 3.1 22.8 4.9 33.8 9 10.7 4 21.5 9.3 31.5.4 3.4-3.1 4.5-7.9 7.9-9.9 4.1-2.4 12.4-1.9 17-2 11.4-.1 23 .9 34.2 2.9 3.2.6 6.3 1.3 9.5 2 1.9.1 2.5 1.4 1.9 3.9 4.8 5 5.8 6.7 13.3 7.9 9.1 1.4 18.3 1.2 26.2-4.2 10.2-7 17.6-15.9 28.8-21.9 8-4.2 18.4-7.3 22.1-16.4.1-.3.1-1.1 0-2 0-.2.1.4 0 0z"
+      gtag("config", "UA-55893575-13");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="page-title">
+        <a href="/">
+          <h1>How to Screenshot</h1>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li class="current">
+            <a href="/windows">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
+                <path
+                  class="svg-fill"
+                  d="M0,12.6l36-4.9v34.7H0 M40.3,6.9L88,0v42H40.3 M0,45.9h36v34.8l-36-5 M40.3,46.4H88V88l-47.7-6.7"
+                />
+              </svg>
+              <p>Windows</p>
+            </a>
+          </li>
+          <li>
+            <a href="/mac">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
+                <path
+                  class="svg-fill"
+                  d="M153.6,132.5c-2.6,5.9-5.6,11.4-9.1,16.4c-4.8,6.9-8.7,11.6-11.8,14.2c-4.7,4.3-9.7,6.5-15.1,6.7 c-3.9,0-8.5-1.1-14-3.3c-5.5-2.2-10.5-3.3-15-3.3c-4.8,0-10,1.1-15.5,3.3c-5.5,2.2-10,3.4-13.4,3.5c-5.2,0.2-10.3-2.1-15.5-6.8 c-3.3-2.9-7.4-7.8-12.3-14.7c-5.3-7.4-9.6-16-13-25.9c-3.6-10.6-5.5-20.9-5.5-30.8c0-11.4,2.5-21.2,7.4-29.5 c3.9-6.6,9-11.8,15.5-15.7s13.4-5.8,20.9-5.9c4.1,0,9.5,1.3,16.2,3.8c6.7,2.5,11,3.8,12.8,3.8c1.4,0,6.2-1.5,14.2-4.4 c7.6-2.7,14.1-3.9,19.4-3.4c14.3,1.2,25,6.8,32.2,17c-12.8,7.8-19.1,18.6-19,32.5c0.1,10.8,4.1,19.9,11.8,27 c3.5,3.3,7.4,5.9,11.8,7.7C155.7,127.3,154.7,130,153.6,132.5L153.6,132.5z M120.8,3.4c0,8.5-3.1,16.4-9.3,23.8 C104,35.9,95,41,85.2,40.2c-0.1-1-0.2-2.1-0.2-3.2c0-8.2,3.6-16.9,9.9-24c3.2-3.6,7.2-6.6,12-9c4.8-2.4,9.4-3.7,13.7-3.9 C120.7,1.1,120.8,2.3,120.8,3.4L120.8,3.4z"
+                />
+              </svg>
+              <p>Mac</p>
+            </a>
+          </li>
+          <li>
+            <a href="/linux">
+              <svg viewBox="0 0 280 330" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  class="svg-fill"
+                  d="M266.1 271c-.9-6.2-11.6-10.8-15.4-14.6-7.2-7.2-3.6-22-14.1-25.2 15.9-26.1-4.7-66.9-22.1-87.1-9.1-10.5-13.8-21.7-20-33.9-7.5-14.8-3.9-31.7-6.4-47.8-4.6-30.2-36.5-53-66.1-39.1-30.3 14.2-23.2 57.9-21 85 1.9 23-20.1 33.4-28.9 52.7-5 10.9-7 22.8-12.5 33.7-2.5 5-6 9.9-7.7 15.2-1.8 5.5.7 9.7.1 14.7-1.4 11.1-7.5 13.2-17.7 14.2-12 1.2-13.2 6.5-12.3 17.7.5 5.7 1.5 11.4.3 17.1-1 4.8-5.8 10.2-5.3 15.1.9 9.3 15.6 10.6 22.9 12.6 11.3 3.1 22.8 4.9 33.8 9 10.7 4 21.5 9.3 31.5.4 3.4-3.1 4.5-7.9 7.9-9.9 4.1-2.4 12.4-1.9 17-2 11.4-.1 23 .9 34.2 2.9 3.2.6 6.3 1.3 9.5 2 1.9.1 2.5 1.4 1.9 3.9 4.8 5 5.8 6.7 13.3 7.9 9.1 1.4 18.3 1.2 26.2-4.2 10.2-7 17.6-15.9 28.8-21.9 8-4.2 18.4-7.3 22.1-16.4.1-.3.1-1.1 0-2 0-.2.1.4 0 0z"
+                />
+              </svg>
+              <p>Linux</p>
+            </a>
+          </li>
+          <li>
+            <a href="/android">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.2 348.9">
+                <path
+                  class="svg-fill"
+                  d="M44.5,135.4v90.2c0,12.1-9.6,21.7-21.7,21.7c-12.1,0-21.7-9.6-21.7-21.7v-90.2c0-12.1,9.6-21.7,21.7-21.7 C34.9,113.7,44.5,123.3,44.5,135.4z M52.5,257.5c0,12.9,10.4,23.4,23.4,23.4h15.5v47.8c0,12.1,9.6,21.7,21.7,21.7 c12.1,0,21.7-9.6,21.7-21.7v-47.8h28.9v47.8c0,12.1,9.6,21.7,21.7,21.7c12.1,0,21.7-9.6,21.7-21.7v-47.8h15.5 c12.9,0,23.4-10.4,23.4-23.4V117.4H52.5V257.5z M245.8,109.8H52.5c0-33.3,19.9-62.4,49.2-77.6L86.5,4.6c-0.9-1.5-0.4-3.3,1.2-4.2 C88.2,0.1,88.6,0,89.2,0c1.1,0,2.1,0.5,2.7,1.6l15.5,27.9c12.6-5.6,26.8-8.8,41.8-8.8c15,0,29.2,3.1,41.8,8.8l15.5-27.9 C207,0.5,208,0,209.1,0c0.5,0,1,0.1,1.5,0.4c1.5,0.9,2.1,2.6,1.2,4.2l-15.3,27.6C225.9,47.4,245.7,76.5,245.8,109.8z M112.6,66.4 c0-4.4-3.7-8.1-8.1-8.1s-8.1,3.7-8.1,8.1c0,4.4,3.7,8.1,8.1,8.1S112.6,70.8,112.6,66.4z M201.8,66.4c0-4.4-3.7-8.1-8.1-8.1 c-4.4,0-8.1,3.7-8.1,8.1c0,4.4,3.7,8.1,8.1,8.1C198.1,74.4,201.8,70.8,201.8,66.4z M275.5,113.7c-12.1,0-21.7,9.6-21.7,21.7v90.2 c0,12.1,9.6,21.7,21.7,21.7c12.1,0,21.7-9.6,21.7-21.7v-90.2C297.2,123.3,287.6,113.7,275.5,113.7z"
+                />
+              </svg>
+              <p>Android</p>
+            </a>
+          </li>
+          <li>
+            <a href="/ios">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 196">
+                <path
+                  class="svg-fill"
+                  d="M109,96.7c0,23.2-12.4,37.9-31.8,37.9c-19.4,0-31.8-14.7-31.8-37.9c0-23.1,12.4-37.8,31.8-37.8v0 C96.6,58.8,109,73.5,109,96.7z M195,46v104c0,24.9-20.1,45-45,45H46c-24.9,0-45-20.1-45-45V46C1,21.1,21.1,1,46,1h104 C174.9,1,195,21.1,195,46z M32.9,76.6h-4.6v61h4.6V76.6z M34.1,58.2c0-2-1.6-3.5-3.6-3.5c-1.9,0-3.5,1.5-3.5,3.5 c0,1.9,1.6,3.5,3.5,3.5C32.5,61.6,34.1,60.1,34.1,58.2z M113.6,96.7c0-25.7-14.2-42-36.4-42S40.8,71,40.8,96.7 c0,25.8,14.1,42.1,36.4,42.1C99.5,138.7,113.6,122.5,113.6,96.7z M174.6,115.7c0-10.9-7.1-16.9-22.9-20.8l-9.1-2.3 c-13.1-3.3-19.1-8-19.1-16.1c0-10.3,9.8-17.7,22.1-17.7c12.9,0,22.4,7.1,23,16.9h4.5c-0.5-12-12-21.1-27.4-21.1 c-14.9,0-26.8,9.2-26.8,21.9c0,10.2,6.9,16.4,22,20.2l9.7,2.4c13.7,3.5,19.5,8.4,19.5,16.9c0,10.6-9.7,18.5-23.5,18.5 c-14.2,0-24.6-7.8-25.3-18.9h-4.5c0.7,13.5,12.7,23,29.4,23l0,0C163.2,138.7,174.6,129.3,174.6,115.7z"
+                />
+              </svg>
+              <p>iOS</p>
+            </a>
+          </li>
+          <li>
+            <a href="/steam">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233 233">
+                <path
+                  class="svg-fill"
+                  d="M233,116.5c0,64.3-52.2,116.5-116.5,116.5C64,233,19.6,198.2,5,150.5l44.1,18.2c2.2,9.9,9,18.6,19.1,22.8 c16.4,6.9,35.4-1,42.2-17.4c1.8-4.3,2.6-8.8,2.5-13.3l40.8-29.1c0.3,0,0.7,0,1,0c24.4,0,44.3-19.9,44.3-44.3 c0-24.4-19.8-44.3-44.3-44.3c-24.4,0-44.3,19.9-44.3,44.3c0,0.2,0,0.4,0,0.6L82,129.3c-4.6-0.2-9.3,0.6-13.6,2.4 c-1.9,0.8-3.8,1.8-5.5,2.9L0.3,108.8c0,0,0,0,0,0c0,0,0-0.1-0.1-0.1C4.2,48,54.8,0,116.5,0C180.8,0,233,52.2,233,116.5z M72.6,178.4 l-14.4-6c2.6,5.3,7,9.8,12.8,12.2c12.7,5.3,27.3-0.7,32.6-13.5h0c2.6-6.1,2.6-12.9,0-19.1c-2.5-6.2-7.3-11-13.5-13.5 c-6.1-2.5-12.6-2.5-18.4-0.3l14.9,6.2c9.4,3.9,13.8,14.7,9.9,24C92.7,177.9,82,182.3,72.6,178.4z M154.8,116.9 c-16.3,0-29.5-13.3-29.5-29.5c0-16.3,13.2-29.5,29.5-29.5c16.3,0,29.5,13.3,29.5,29.5C184.2,103.6,171,116.9,154.8,116.9z M154.8,109.5c12.2,0,22.2-9.9,22.2-22.2c0-12.3-9.9-22.2-22.2-22.2c-12.2,0-22.1,9.9-22.1,22.2C132.7,99.5,142.6,109.5,154.8,109.5 z"
+                />
+              </svg>
+              <p>Steam</p>
+            </a>
+          </li>
+          <li>
+            <a href="/xbox">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.4 372.6">
+                <path
+                  class="svg-fill"
+                  d="M169.2,359.4c-28.7-2.7-57.7-13-82.7-29.3
+                c-20.9-13.6-25.6-19.2-25.6-30.4c0-22.5,24.7-61.8,67-106.7c24-25.5,57.5-55.4,61.1-54.6c7,1.6,63.3,56.4,84.3,82.2 c33.3,40.8,48.6,74.2,40.8,89.1c-5.9,11.3-42.6,33.5-69.5,42C222.4,358.8,193.2,361.7,169.2,359.4L169.2,359.4z M32.7,276.3 c-17.4-26.6-26.1-52.9-30.4-90.8c-1.4-12.5-0.9-19.7,3.2-45.4c5.1-32.1,23.3-69.1,45.3-92c9.3-9.7,10.2-10,21.6-6.1 c13.8,4.7,28.6,14.9,51.5,35.6l13.4,12.1l-7.3,9C96,140.2,60.2,199.2,46.7,235.7c-7.3,19.8-10.3,39.8-7.1,48 C41.7,289.3,39.8,287.3,32.7,276.3z M337.6,280.9c1.7-8.4-0.5-23.8-5.5-39.3c-11-33.6-47.8-96.1-81.7-138.6l-10.6-13.4L251.3,79 c15-13.8,25.5-22.1,36.7-29.1c8.9-5.5,21.6-10.4,27.1-10.4c3.4,0,15.2,12.3,24.8,25.7c14.8,20.8,25.7,46,31.2,72.2 c3.6,16.9,3.9,53.2,0.6,70.1c-2.7,13.9-8.4,31.9-14,44.1c-4.2,9.1-14.5,26.9-19.1,32.7C336.3,287.3,336.3,287.3,337.6,280.9 L337.6,280.9z M172.3,33.1c-15.6-7.9-39.7-16.4-53-18.7c-4.7-0.8-12.6-1.2-17.7-1c-11,0.6-10.5,0,7.1-8.3 c14.6-6.9,26.8-11,43.4-14.5c18.6-3.9,53.7-4,72-0.1c19.8,4.2,43.1,12.9,56.3,20.9l3.9,2.4l-9-0.5c-17.8-0.9-43.8,6.3-71.6,19.9
+                c-8.4,4.1-15.7,7.4-16.3,7.3C187,40.4,180.1,37.1,172.3,33.1z"
+                />
+              </svg>
+              <p>Xbox</p>
+            </a>
+          </li>
+          <li>
+            <a href="/playstation">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 154.8">
+                <path
+                  class="svg-fill"
+                  d="M197.2,118c-3.9,4.9-13.3,8.4-13.3,8.4l-70.5,25.3V133l51.9-18.5c5.9-2.1,6.8-5.1,2-6.7 c-4.8-1.6-13.4-1.1-19.3,1L113.4,121v-19.4l2-0.7c0,0,10-3.5,24-5.1c14-1.5,31.2,0.2,44.7,5.3C199.4,106,201.1,113.1,197.2,118z M120.1,86.2V38.4c0-5.6-1-10.8-6.3-12.2c-4-1.3-6.5,2.5-6.5,8.1v119.6L75,143.6V1c13.7,2.5,33.7,8.6,44.4,12.2 c27.3,9.4,36.6,21,36.6,47.3C156,86.2,140.2,95.9,120.1,86.2z M15.9,131c-15.6-4.4-18.2-13.6-11.1-18.8c6.6-4.9,17.8-8.5,17.8-8.5 l46.2-16.4v18.7l-33.3,11.9c-5.9,2.1-6.8,5.1-2,6.7c4.8,1.6,13.4,1.1,19.3-1l16-5.8v16.8c-1,0.2-2.1,0.4-3.2,0.5 C49.6,137.6,32.6,136.5,15.9,131L15.9,131z"
+                />
+              </svg>
+              <p>PS4</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="full">
+        <section class="intro">
+          <h1 class="intro-title">Full Screen</h1>
+          <p>
+            This is the most commonly known method of taking a screenshot. The
+            <kbd>Print Screen</kbd> key can be combined with other keys to
+            change its behaviour.
+          </p>
+          <p>
+            With this method, you do not need to paste the image data into a
+            program like Microsoft Paint, as it creates a file directly on your
+            computer.
+          </p>
+        </section>
+        <section class="step" id="full-1">
+          <div class="step-half step-text">
+            <h2 class="step-title">1</h2>
+            <p>
+              Press the <kbd>Windows</kbd> and <kbd>Print Screen</kbd> keys on
+              your keyboard.
+            </p>
+            <p>
+              Note: Some laptops need the <kbd>fn</kbd> key held in order to use
+              the <kbd>Print Screen</kbd> key.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 168">
+              <path
+                class="svg-outline"
+                d="M30.9 61H8.7V38.9h22.2V61zm26.4-22.1H35.1V61h22.2V38.9zm26.4 0H61.5V61h22.2V38.9zm26.4 0H87.9V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61H163V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0H220V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zM30.9 8.1H8.7v22.1h22.2V8.1zm42.2 0H50.9v22.1h22.2V8.1zm26.4 0H77.3v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm44.2 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.5 0h-22.2v22.1h22.2V8.1zm45.7 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.5 0h-22.2v22.1h22.2V8.1zM47.1 63.7H8.7v22.1h38.4V63.7zm26.4 0H51.3v22.1h22.2V63.7zm26.4 0H77.7v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.5 0h-22.2v22.1h22.2V63.7zm26.4 0H157v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1H232V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.5 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm36.7 0h-32.4v22.1h32.4V63.7zM53.2 88.4H8.7v22.1h44.5V88.4zm26.4 0H57.4v22.1h22.2V88.4zm26.4 0H83.8v22.1H106V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.5 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.5 0h-22.2v22.1H291V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm57 0H348v22.1h52.7V88.4zM63 113.2H8.7v22.1H63v-22.1zm26.5 0H67.3v22.1h22.2v-22.1zm26.4 0H93.7v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.5 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1H248v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0H305v22.1h22.2v-22.1zm73.6 0h-69.3v22.1h69.3v-22.1zM47.1 138H8.7v22.1h38.4V138zm57.7 0H77.7v22.1h27.1V138zm175.1 0H108.6v22.1h171.2V138zm57.8 0h-22.2v22.1h22.2V138zm26.4 0h-22.2v22.1h22.2V138zm36.7 0h-32.4v22.1h32.4V138zm-89.8 0h-27v22.1h27V138zm140.4-99.1h-22.2V61h22.2V38.9zm26.6 0h-22.2V61H478V38.9zm26.7 0h-22.2V61h22.2V38.9zm-53.3 24.8h-22.2v22.1h22.2V63.7zm26.6 0h-22.2v22.1H478V63.7zm26.7 0h-22.2v22.1h22.2V63.7zM478 8.1h-22.2v22.1H478V8.1zm26.7 0h-22.2v22.1h22.2V8.1zM451.4 138h-22.2v22.1h22.2V138zm26.6 0h-22.2v22.1H478V138zm26.7 0h-22.2v22.1h22.2V138zM478 113.2h-22.2v22.1H478v-22.1z"
+              />
+              <path
+                class="svg-outline svg-fill"
+                d="M451.4 30.2h-22.2V8.1h22.2v22.1zM73.5 138H51.3v22.1h22.2V138z"
               />
             </svg>
-            <p>Linux</p>
-          </a>
-        </li>
-        <li>
-          <a href="/android">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.2 348.9">
-              <path class="svg-fill" d="M44.5,135.4v90.2c0,12.1-9.6,21.7-21.7,21.7c-12.1,0-21.7-9.6-21.7-21.7v-90.2c0-12.1,9.6-21.7,21.7-21.7 C34.9,113.7,44.5,123.3,44.5,135.4z M52.5,257.5c0,12.9,10.4,23.4,23.4,23.4h15.5v47.8c0,12.1,9.6,21.7,21.7,21.7 c12.1,0,21.7-9.6,21.7-21.7v-47.8h28.9v47.8c0,12.1,9.6,21.7,21.7,21.7c12.1,0,21.7-9.6,21.7-21.7v-47.8h15.5 c12.9,0,23.4-10.4,23.4-23.4V117.4H52.5V257.5z M245.8,109.8H52.5c0-33.3,19.9-62.4,49.2-77.6L86.5,4.6c-0.9-1.5-0.4-3.3,1.2-4.2 C88.2,0.1,88.6,0,89.2,0c1.1,0,2.1,0.5,2.7,1.6l15.5,27.9c12.6-5.6,26.8-8.8,41.8-8.8c15,0,29.2,3.1,41.8,8.8l15.5-27.9 C207,0.5,208,0,209.1,0c0.5,0,1,0.1,1.5,0.4c1.5,0.9,2.1,2.6,1.2,4.2l-15.3,27.6C225.9,47.4,245.7,76.5,245.8,109.8z M112.6,66.4 c0-4.4-3.7-8.1-8.1-8.1s-8.1,3.7-8.1,8.1c0,4.4,3.7,8.1,8.1,8.1S112.6,70.8,112.6,66.4z M201.8,66.4c0-4.4-3.7-8.1-8.1-8.1 c-4.4,0-8.1,3.7-8.1,8.1c0,4.4,3.7,8.1,8.1,8.1C198.1,74.4,201.8,70.8,201.8,66.4z M275.5,113.7c-12.1,0-21.7,9.6-21.7,21.7v90.2 c0,12.1,9.6,21.7,21.7,21.7c12.1,0,21.7-9.6,21.7-21.7v-90.2C297.2,123.3,287.6,113.7,275.5,113.7z"/>
+          </div>
+        </section>
+        <section class="step" id="full-2">
+          <div class="step-half step-text">
+            <h2 class="step-title">2</h2>
+            <p>
+              Your screenshot can be found in the
+              <code>C:\Users\&lt;yourname&gt;\Pictures\Screenshots</code>
+              folder.
+            </p>
+            <p>
+              Note: You can copy/paste
+              <code>%USERPROFILE%\Pictures\Screenshots</code> into the Explorer
+              location bar to go straight to this folder.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128">
+              <path
+                class="svg-outline"
+                d="M8,120V8h240v112 M8,16h240 M8,32h240 M40,32v88 M245,19H40v10h205V19z M13.3,23.9h6.6 M12.9,24.3l3.5-3.5
+              M12.9,23.6l3.7,3.7 M32,24.1h-6.6 M32.3,23.7l-3.5,3.5 M32.3,24.4l-3.7-3.7"
+              />
+              <rect
+                x="48"
+                y="40"
+                class="svg-outline svg-fill-mid"
+                width="32"
+                height="18"
+              />
+              <text
+                transform="matrix(1 0 0 1 47.25 64)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Screenshot.png
+              </text>
+              <text
+                transform="matrix(1 0 0 1 48 27.348)"
+                font-size="8"
+                class="svg-fill"
+              >
+                %USERPROFILE%\Pictures\Screenshots
+              </text>
             </svg>
-            <p>Android</p>
-          </a>
-        </li>
-        <li>
-          <a href="/ios">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 196">
-              <path class="svg-fill" d="M109,96.7c0,23.2-12.4,37.9-31.8,37.9c-19.4,0-31.8-14.7-31.8-37.9c0-23.1,12.4-37.8,31.8-37.8v0 C96.6,58.8,109,73.5,109,96.7z M195,46v104c0,24.9-20.1,45-45,45H46c-24.9,0-45-20.1-45-45V46C1,21.1,21.1,1,46,1h104 C174.9,1,195,21.1,195,46z M32.9,76.6h-4.6v61h4.6V76.6z M34.1,58.2c0-2-1.6-3.5-3.6-3.5c-1.9,0-3.5,1.5-3.5,3.5 c0,1.9,1.6,3.5,3.5,3.5C32.5,61.6,34.1,60.1,34.1,58.2z M113.6,96.7c0-25.7-14.2-42-36.4-42S40.8,71,40.8,96.7 c0,25.8,14.1,42.1,36.4,42.1C99.5,138.7,113.6,122.5,113.6,96.7z M174.6,115.7c0-10.9-7.1-16.9-22.9-20.8l-9.1-2.3 c-13.1-3.3-19.1-8-19.1-16.1c0-10.3,9.8-17.7,22.1-17.7c12.9,0,22.4,7.1,23,16.9h4.5c-0.5-12-12-21.1-27.4-21.1 c-14.9,0-26.8,9.2-26.8,21.9c0,10.2,6.9,16.4,22,20.2l9.7,2.4c13.7,3.5,19.5,8.4,19.5,16.9c0,10.6-9.7,18.5-23.5,18.5 c-14.2,0-24.6-7.8-25.3-18.9h-4.5c0.7,13.5,12.7,23,29.4,23l0,0C163.2,138.7,174.6,129.3,174.6,115.7z" />
+          </div>
+        </section>
+      </article>
+      <article id="partial">
+        <section class="intro">
+          <h1 class="intro-title">Partial</h1>
+          <p>
+            The Snipping Tool was added to Windows during Windows Vista, and has
+            remained in the Operating System since then. It's main feature is
+            being able to take screenshots of parts of the screen, instead of
+            capturing the entire area.
+          </p>
+        </section>
+        <section class="step" id="partial-1">
+          <div class="step-half step-text">
+            <h2 class="step-title">1</h2>
+            <p>Open the Start menu and search for <em>Snipping Tool</em>.</p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 240">
+              <path class="svg-outline svg-fill-mid" d="M20 19.6h112v24H20z" />
+              <text
+                transform="translate(44.695 40.308)"
+                font-size="6"
+                class="svg-fill"
+              >
+                Desktop App
+              </text>
+              <text
+                transform="translate(44.695 31.58)"
+                font-size="10"
+                class="svg-fill"
+              >
+                Snipping Tool
+              </text>
+              <path class="svg-outline svg-fill" d="M20 220h112v16H20z" />
+              <text
+                transform="translate(38.726 231.244)"
+                font-size="12"
+                class="svg-fill-dark"
+              >
+                Snipping Tool
+              </text>
+              <path
+                class="svg-outline-dark"
+                d="M30.5 222c1.9 0 3.5 1.6 3.5 3.5s-1.6 3.5-3.5 3.5-3.5-1.6-3.5-3.5 1.5-3.5 3.5-3.5zM22 234l6-6"
+              />
+              <path
+                class="svg-outline"
+                d="M20 235.6H4v-216h16v216zm112-216H20V220h112V19.6zM4 4v232h144M28 27.9c-2.4 1.4-3.6 3.9-2.7 5.5.9 1.6 3.7 1.8 6.1.4s3.6-3.9 2.7-5.5-3.7-1.8-6.1-.4zm1.7 3.8l3.6 3.6m-1-4.6v5m1.2-.7c-.4.4-.2 1.1.3 1.7.5.5 1.3.7 1.7.3.4-.4.2-1.1-.3-1.7-.6-.5-1.3-.7-1.7-.3zm-1.6.4c-.5 0-1 .6-1 1.4 0 .8.4 1.4 1 1.4s1-.6 1-1.4c0-.8-.5-1.4-1-1.4z"
+              />
             </svg>
-            <p>iOS</p>
-          </a>
-        </li>
-        <li>
-          <a href="/steam">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233 233">
-              <path class="svg-fill" d="M233,116.5c0,64.3-52.2,116.5-116.5,116.5C64,233,19.6,198.2,5,150.5l44.1,18.2c2.2,9.9,9,18.6,19.1,22.8 c16.4,6.9,35.4-1,42.2-17.4c1.8-4.3,2.6-8.8,2.5-13.3l40.8-29.1c0.3,0,0.7,0,1,0c24.4,0,44.3-19.9,44.3-44.3 c0-24.4-19.8-44.3-44.3-44.3c-24.4,0-44.3,19.9-44.3,44.3c0,0.2,0,0.4,0,0.6L82,129.3c-4.6-0.2-9.3,0.6-13.6,2.4 c-1.9,0.8-3.8,1.8-5.5,2.9L0.3,108.8c0,0,0,0,0,0c0,0,0-0.1-0.1-0.1C4.2,48,54.8,0,116.5,0C180.8,0,233,52.2,233,116.5z M72.6,178.4 l-14.4-6c2.6,5.3,7,9.8,12.8,12.2c12.7,5.3,27.3-0.7,32.6-13.5h0c2.6-6.1,2.6-12.9,0-19.1c-2.5-6.2-7.3-11-13.5-13.5 c-6.1-2.5-12.6-2.5-18.4-0.3l14.9,6.2c9.4,3.9,13.8,14.7,9.9,24C92.7,177.9,82,182.3,72.6,178.4z M154.8,116.9 c-16.3,0-29.5-13.3-29.5-29.5c0-16.3,13.2-29.5,29.5-29.5c16.3,0,29.5,13.3,29.5,29.5C184.2,103.6,171,116.9,154.8,116.9z M154.8,109.5c12.2,0,22.2-9.9,22.2-22.2c0-12.3-9.9-22.2-22.2-22.2c-12.2,0-22.1,9.9-22.1,22.2C132.7,99.5,142.6,109.5,154.8,109.5 z"/>
+          </div>
+        </section>
+        <section class="step" id="partial-2">
+          <div class="step-half step-text">
+            <h2 class="step-title">2</h2>
+            <p>Select the <em>New</em> button in the menu bar.</p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+              <path
+                class="svg-fill"
+                d="M50.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S50.3,23.3,50.3,24z M53,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S53.7,22.7,53,22.7z M57,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3 s1.3-0.6,1.3-1.3S57.7,22.7,57,22.7z"
+              />
+              <rect x="10" y="18" class="svg-fill-mid" width="32" height="12" />
+              <text
+                transform="matrix(1 0 0 1 23.9246 26.7972)"
+                font-size="8"
+                class="svg-fill"
+              >
+                New
+              </text>
+              <text
+                transform="matrix(1 0 0 1 18.3362 13.4025)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Snipping Tool
+              </text>
+              <path
+                class="svg-outline"
+                d="M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4 c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6S12.7,13.4,12.4,13.4z M10.8,10.2c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2 c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M19.3,26.4l-3.2-3.2 M18.5,22.3v4.5 M19.5,26.2c-0.3,0.3-0.2,1,0.3,1.5 c0.5,0.5,1.1,0.6,1.5,0.3c0.3-0.3,0.2-1-0.3-1.5C20.5,25.9,19.9,25.8,19.5,26.2z M18.1,26.5c-0.5,0-0.9,0.6-0.9,1.2 s0.4,1.2,0.9,1.2s0.9-0.6,0.9-1.2S18.6,26.5,18.1,26.5z M14.6,19.8c-2.2,1.2-3.2,3.4-2.4,4.9c0.8,1.5,3.3,1.6,5.4,0.4 s3.2-3.4,2.4-4.9C19.2,18.8,16.8,18.6,14.6,19.8z M120,56V8H8v48 M8,16h112 M8,32h112"
+              />
             </svg>
-            <p>Steam</p>
-          </a>
-        </li>
-        <li>
-          <a href="/xbox">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.4 372.6">
-              <path class="svg-fill" d="M169.2,359.4c-28.7-2.7-57.7-13-82.7-29.3
-                c-20.9-13.6-25.6-19.2-25.6-30.4c0-22.5,24.7-61.8,67-106.7c24-25.5,57.5-55.4,61.1-54.6c7,1.6,63.3,56.4,84.3,82.2 c33.3,40.8,48.6,74.2,40.8,89.1c-5.9,11.3-42.6,33.5-69.5,42C222.4,358.8,193.2,361.7,169.2,359.4L169.2,359.4z M32.7,276.3 c-17.4-26.6-26.1-52.9-30.4-90.8c-1.4-12.5-0.9-19.7,3.2-45.4c5.1-32.1,23.3-69.1,45.3-92c9.3-9.7,10.2-10,21.6-6.1 c13.8,4.7,28.6,14.9,51.5,35.6l13.4,12.1l-7.3,9C96,140.2,60.2,199.2,46.7,235.7c-7.3,19.8-10.3,39.8-7.1,48 C41.7,289.3,39.8,287.3,32.7,276.3z M337.6,280.9c1.7-8.4-0.5-23.8-5.5-39.3c-11-33.6-47.8-96.1-81.7-138.6l-10.6-13.4L251.3,79 c15-13.8,25.5-22.1,36.7-29.1c8.9-5.5,21.6-10.4,27.1-10.4c3.4,0,15.2,12.3,24.8,25.7c14.8,20.8,25.7,46,31.2,72.2 c3.6,16.9,3.9,53.2,0.6,70.1c-2.7,13.9-8.4,31.9-14,44.1c-4.2,9.1-14.5,26.9-19.1,32.7C336.3,287.3,336.3,287.3,337.6,280.9 L337.6,280.9z M172.3,33.1c-15.6-7.9-39.7-16.4-53-18.7c-4.7-0.8-12.6-1.2-17.7-1c-11,0.6-10.5,0,7.1-8.3 c14.6-6.9,26.8-11,43.4-14.5c18.6-3.9,53.7-4,72-0.1c19.8,4.2,43.1,12.9,56.3,20.9l3.9,2.4l-9-0.5c-17.8-0.9-43.8,6.3-71.6,19.9
-                c-8.4,4.1-15.7,7.4-16.3,7.3C187,40.4,180.1,37.1,172.3,33.1z"/>
+          </div>
+        </section>
+        <section class="step" id="partial-3">
+          <div class="step-half step-text">
+            <h2 class="step-title">3</h2>
+            <p>Click and drag to select the area to capture a screenshot.</p>
+            <p>
+              Note: See <a href="#extra-mode">Extra: Mode</a> for more ways of
+              selecting the area to capture.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+              <rect
+                x="28"
+                y="28"
+                class="svg-outline svg-fill-mid"
+                width="200"
+                height="200"
+              />
+              <path
+                class="svg-outline"
+                stroke-width="4"
+                d="M228,240v-24.3 M215.8,227.8h24.3"
+              />
             </svg>
-            <p>Xbox</p>
-          </a>
-        </li>
-        <li>
-          <a href="/playstation">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 154.8">
-              <path class="svg-fill" d="M197.2,118c-3.9,4.9-13.3,8.4-13.3,8.4l-70.5,25.3V133l51.9-18.5c5.9-2.1,6.8-5.1,2-6.7 c-4.8-1.6-13.4-1.1-19.3,1L113.4,121v-19.4l2-0.7c0,0,10-3.5,24-5.1c14-1.5,31.2,0.2,44.7,5.3C199.4,106,201.1,113.1,197.2,118z M120.1,86.2V38.4c0-5.6-1-10.8-6.3-12.2c-4-1.3-6.5,2.5-6.5,8.1v119.6L75,143.6V1c13.7,2.5,33.7,8.6,44.4,12.2 c27.3,9.4,36.6,21,36.6,47.3C156,86.2,140.2,95.9,120.1,86.2z M15.9,131c-15.6-4.4-18.2-13.6-11.1-18.8c6.6-4.9,17.8-8.5,17.8-8.5 l46.2-16.4v18.7l-33.3,11.9c-5.9,2.1-6.8,5.1-2,6.7c4.8,1.6,13.4,1.1,19.3-1l16-5.8v16.8c-1,0.2-2.1,0.4-3.2,0.5 C49.6,137.6,32.6,136.5,15.9,131L15.9,131z"/>
+          </div>
+        </section>
+        <section class="step" id="partial-4">
+          <div class="step-half step-text">
+            <h2 class="step-title">4</h2>
+            <p>
+              Select the <em>Save</em> button in the menu bar to save the
+              captured image to your computer.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+              <text
+                transform="matrix(1 0 0 1 18.3362 13.4025)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Snipping Tool
+              </text>
+              <rect x="58" y="18" class="svg-fill-mid" width="12" height="12" />
+              <path
+                class="svg-outline"
+                d="M59.8,19h8.3v10h-7.6l-0.8-0.8L59.8,19 M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2 c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4 c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6S12.7,13.4,12.4,13.4z M10.8,10.2c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2 c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M120,56V8H8v48 M8,16h112 M8,32h112"
+              />
+              <path
+                class="svg-fill"
+                d="M66.5,26.5V29h-3v-1.9h-1.4V29h-1.5v-2.5H66.5z M66.6,20.4h-5.1v3h5.1V20.4z M46,22.7c-0.7,0-1.3,0.6-1.3,1.3 s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S46.7,22.7,46,22.7z M51.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3 S51.3,23.3,51.3,24z M55.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S55.3,23.3,55.3,24z M74,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S74.7,22.7,74,22.7z M79.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3 s0.6-1.3,1.3-1.3S79.3,23.3,79.3,24z M83.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S83.3,23.3,83.3,24z"
+              />
             </svg>
-            <p>PS4</p>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <article id="full">
-      <section class="intro">
-        <h1 class="intro-title">Full Screen</h1>
-        <p>This is the most commonly known method of taking a screenshot. The <kbd>Print Screen</kbd> key can be combined with other keys to change its behaviour.</p>
-        <p>With this method, you do not need to paste the image data into a program like Microsoft Paint, as it creates a file directly on your computer.</p>
-      </section>
-      <section class="step" id="full-1">
-        <div class="step-half step-text">
-          <h2 class="step-title">1</h2>
-          <p>Press the <kbd>Windows</kbd> and <kbd>Print Screen</kbd> keys on your keyboard.</p>
-          <p>Note: Some laptops need the <kbd>fn</kbd> key held in order to use the <kbd>Print Screen</kbd> key.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 168">
-            <path class="svg-outline" d="M30.9 61H8.7V38.9h22.2V61zm26.4-22.1H35.1V61h22.2V38.9zm26.4 0H61.5V61h22.2V38.9zm26.4 0H87.9V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61H163V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0H220V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.4 0h-22.2V61h22.2V38.9zm26.5 0h-22.2V61h22.2V38.9zM30.9 8.1H8.7v22.1h22.2V8.1zm42.2 0H50.9v22.1h22.2V8.1zm26.4 0H77.3v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm44.2 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.5 0h-22.2v22.1h22.2V8.1zm45.7 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.4 0h-22.2v22.1h22.2V8.1zm26.5 0h-22.2v22.1h22.2V8.1zM47.1 63.7H8.7v22.1h38.4V63.7zm26.4 0H51.3v22.1h22.2V63.7zm26.4 0H77.7v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.5 0h-22.2v22.1h22.2V63.7zm26.4 0H157v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1H232V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.5 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm26.4 0h-22.2v22.1h22.2V63.7zm36.7 0h-32.4v22.1h32.4V63.7zM53.2 88.4H8.7v22.1h44.5V88.4zm26.4 0H57.4v22.1h22.2V88.4zm26.4 0H83.8v22.1H106V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.5 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.5 0h-22.2v22.1H291V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm26.4 0h-22.2v22.1h22.2V88.4zm57 0H348v22.1h52.7V88.4zM63 113.2H8.7v22.1H63v-22.1zm26.5 0H67.3v22.1h22.2v-22.1zm26.4 0H93.7v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.5 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1H248v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0h-22.2v22.1h22.2v-22.1zm26.4 0H305v22.1h22.2v-22.1zm73.6 0h-69.3v22.1h69.3v-22.1zM47.1 138H8.7v22.1h38.4V138zm57.7 0H77.7v22.1h27.1V138zm175.1 0H108.6v22.1h171.2V138zm57.8 0h-22.2v22.1h22.2V138zm26.4 0h-22.2v22.1h22.2V138zm36.7 0h-32.4v22.1h32.4V138zm-89.8 0h-27v22.1h27V138zm140.4-99.1h-22.2V61h22.2V38.9zm26.6 0h-22.2V61H478V38.9zm26.7 0h-22.2V61h22.2V38.9zm-53.3 24.8h-22.2v22.1h22.2V63.7zm26.6 0h-22.2v22.1H478V63.7zm26.7 0h-22.2v22.1h22.2V63.7zM478 8.1h-22.2v22.1H478V8.1zm26.7 0h-22.2v22.1h22.2V8.1zM451.4 138h-22.2v22.1h22.2V138zm26.6 0h-22.2v22.1H478V138zm26.7 0h-22.2v22.1h22.2V138zM478 113.2h-22.2v22.1H478v-22.1z"
-            />
-            <path class="svg-outline svg-fill" d="M451.4 30.2h-22.2V8.1h22.2v22.1zM73.5 138H51.3v22.1h22.2V138z" />
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="full-2">
-        <div class="step-half step-text">
-          <h2 class="step-title">2</h2>
-          <p>Your screenshot can be found in the <code>C:\Users\&lt;yourname&gt;\Pictures\Screenshots</code> folder.</p>
-          <p>Note: You can copy/paste <code>%USERPROFILE%\Pictures\Screenshots</code> into the Explorer location bar to go straight to this folder.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128">
-            <path class="svg-outline" d="M8,120V8h240v112 M8,16h240 M8,32h240 M40,32v88 M245,19H40v10h205V19z M13.3,23.9h6.6 M12.9,24.3l3.5-3.5
-              M12.9,23.6l3.7,3.7 M32,24.1h-6.6 M32.3,23.7l-3.5,3.5 M32.3,24.4l-3.7-3.7" />
-            <rect x="48" y="40" class="svg-outline svg-fill-mid" width="32" height="18" />
-            <text transform="matrix(1 0 0 1 47.25 64)" font-size="5" class="svg-fill">Screenshot.png</text>
-            <text transform="matrix(1 0 0 1 48 27.348)" font-size="8" class="svg-fill">%USERPROFILE%\Pictures\Screenshots</text>
-          </svg>
-        </div>
-      </section>
-    </article>
-    <article id="partial">
-      <section class="intro">
-        <h1 class="intro-title">Partial</h1>
-        <p>The Snipping Tool was added to Windows during Windows Vista, and has remained in the Operating System since then. It's main feature is being able to take screenshots of parts of the screen, instead of capturing the entire area.</p>
-      </section>
-      <section class="step" id="partial-1">
-        <div class="step-half step-text">
-          <h2 class="step-title">1</h2>
-          <p>Open the Start menu and search for <em>Snipping Tool</em>.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 240">
-            <path class="svg-outline svg-fill-mid" d="M20 19.6h112v24H20z"/>
-            <text transform="translate(44.695 40.308)" font-size="6" class="svg-fill">Desktop App</text>
-            <text transform="translate(44.695 31.58)" font-size="10" class="svg-fill">Snipping Tool</text>
-            <path class="svg-outline svg-fill" d="M20 220h112v16H20z"/>
-            <text transform="translate(38.726 231.244)" font-size="12" class="svg-fill-dark">Snipping Tool</text>
-            <path class="svg-outline-dark" d="M30.5 222c1.9 0 3.5 1.6 3.5 3.5s-1.6 3.5-3.5 3.5-3.5-1.6-3.5-3.5 1.5-3.5 3.5-3.5zM22 234l6-6"/>
-            <path class="svg-outline" d="M20 235.6H4v-216h16v216zm112-216H20V220h112V19.6zM4 4v232h144M28 27.9c-2.4 1.4-3.6 3.9-2.7 5.5.9 1.6 3.7 1.8 6.1.4s3.6-3.9 2.7-5.5-3.7-1.8-6.1-.4zm1.7 3.8l3.6 3.6m-1-4.6v5m1.2-.7c-.4.4-.2 1.1.3 1.7.5.5 1.3.7 1.7.3.4-.4.2-1.1-.3-1.7-.6-.5-1.3-.7-1.7-.3zm-1.6.4c-.5 0-1 .6-1 1.4 0 .8.4 1.4 1 1.4s1-.6 1-1.4c0-.8-.5-1.4-1-1.4z"/>
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="partial-2">
-        <div class="step-half step-text">
-          <h2 class="step-title">2</h2>
-          <p>Select the <em>New</em> button in the menu bar.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
-            <path class="svg-fill" d="M50.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S50.3,23.3,50.3,24z M53,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S53.7,22.7,53,22.7z M57,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3 s1.3-0.6,1.3-1.3S57.7,22.7,57,22.7z"/>
-            <rect x="10" y="18" class="svg-fill-mid" width="32" height="12" />
-            <text transform="matrix(1 0 0 1 23.9246 26.7972)" font-size="8" class="svg-fill">New</text>
-	          <text transform="matrix(1 0 0 1 18.3362 13.4025)" font-size="5" class="svg-fill">Snipping Tool</text>
-            <path class="svg-outline" d="M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4 c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6S12.7,13.4,12.4,13.4z M10.8,10.2c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2 c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M19.3,26.4l-3.2-3.2 M18.5,22.3v4.5 M19.5,26.2c-0.3,0.3-0.2,1,0.3,1.5 c0.5,0.5,1.1,0.6,1.5,0.3c0.3-0.3,0.2-1-0.3-1.5C20.5,25.9,19.9,25.8,19.5,26.2z M18.1,26.5c-0.5,0-0.9,0.6-0.9,1.2 s0.4,1.2,0.9,1.2s0.9-0.6,0.9-1.2S18.6,26.5,18.1,26.5z M14.6,19.8c-2.2,1.2-3.2,3.4-2.4,4.9c0.8,1.5,3.3,1.6,5.4,0.4 s3.2-3.4,2.4-4.9C19.2,18.8,16.8,18.6,14.6,19.8z M120,56V8H8v48 M8,16h112 M8,32h112"/>
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="partial-3">
-        <div class="step-half step-text">
-          <h2 class="step-title">3</h2>
-          <p>Click and drag to select the area to capture a screenshot.</p>
-          <p>Note: See <a href="#extra-mode">Extra: Mode</a> for more ways of selecting the area to capture.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-            <rect x="28" y="28" class="svg-outline svg-fill-mid" width="200" height="200" />
-            <path class="svg-outline" stroke-width="4" d="M228,240v-24.3 M215.8,227.8h24.3" />
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="partial-4">
-        <div class="step-half step-text">
-          <h2 class="step-title">4</h2>
-          <p>Select the <em>Save</em> button in the menu bar to save the captured image to your computer.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
-            <text transform="matrix(1 0 0 1 18.3362 13.4025)" font-size="5" class="svg-fill">Snipping Tool</text>
-            <rect x="58" y="18" class="svg-fill-mid" width="12" height="12" />
-            <path class="svg-outline" d="M59.8,19h8.3v10h-7.6l-0.8-0.8L59.8,19 M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2 c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4 c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6S12.7,13.4,12.4,13.4z M10.8,10.2c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2 c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M120,56V8H8v48 M8,16h112 M8,32h112"/>
-            <path class="svg-fill" d="M66.5,26.5V29h-3v-1.9h-1.4V29h-1.5v-2.5H66.5z M66.6,20.4h-5.1v3h5.1V20.4z M46,22.7c-0.7,0-1.3,0.6-1.3,1.3 s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S46.7,22.7,46,22.7z M51.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3 S51.3,23.3,51.3,24z M55.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S55.3,23.3,55.3,24z M74,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S74.7,22.7,74,22.7z M79.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3 s0.6-1.3,1.3-1.3S79.3,23.3,79.3,24z M83.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S83.3,23.3,83.3,24z"/>
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="partial-extra-annotating">
-        <div class="step-half step-text">
-          <h2 class="step-title">Extra: Annotating</h2>
-          <p>Before saving, you can draw on the image to create annotations or hide personal information.</p>
-          <p>Select the <em>Pen</em>, <em>Highlighter</em>, and <em>Eraser</em> buttons in the menu bar to use the tools.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
-            <text transform="matrix(1 0 0 1 18.3362 13.4025)" font-size="5" class="svg-fill">Snipping Tool</text>
-            <rect x="70" y="18" class="svg-fill-mid" width="48" height="12" />
-            <path class="svg-outline" d="M80.5,20.1l-7.9,7.9 M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M11.5,11.8
+          </div>
+        </section>
+        <section class="step" id="partial-extra-annotating">
+          <div class="step-half step-text">
+            <h2 class="step-title">Extra: Annotating</h2>
+            <p>
+              Before saving, you can draw on the image to create annotations or
+              hide personal information.
+            </p>
+            <p>
+              Select the <em>Pen</em>, <em>Highlighter</em>, and
+              <em>Eraser</em> buttons in the menu bar to use the tools.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+              <text
+                transform="matrix(1 0 0 1 18.3362 13.4025)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Snipping Tool
+              </text>
+              <rect x="70" y="18" class="svg-fill-mid" width="48" height="12" />
+              <path
+                class="svg-outline"
+                d="M80.5,20.1l-7.9,7.9 M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M11.5,11.8
               l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1c0.2-0.2,0.1-0.5-0.1-0.7
               C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6S12.7,13.4,12.4,13.4z
               M10.8,10.2c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M120,56V8H8v48 M8,16h112
-              M8,32h112" />
-            <line class="svg-outline" stroke-width="2" x1="99.5" y1="20.2" x2="91.8" y2="27.8" />
-            <path class="svg-fill" d="M83.8,25.5l-1.3-2.3h2.6L83.8,25.5z M115.7,25.1v-2.3l-2.7-2.7l-6.7,2.7v2.3l2.7,2.7L115.7,25.1z M57,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S57.7,22.7,57,22.7z M62.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3 s0.6-1.3,1.3-1.3S62.3,23.3,62.3,24z M66.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S66.3,23.3,66.3,24z"
-            />
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="partial-extra-mode">
-        <div class="step-half step-text">
-          <h2 class="step-title">Extra: Mode</h2>
-          <p>Selecting the <em>Mode</em> buttons in the menu bar allows you to change the capture mode.</p>
-          <p>The default mode is "Rectangular Snip". You can also take a screenshot of a specific window ("Window Snip"), the entire screen ("Fullscreen Snip"), or a drawn shape ("Free-form Snip").</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
-            <rect x="43" y="18" class="svg-fill-mid" width="42" height="12" />
-            <text transform="matrix(1 0 0 1 57.9166 26.8436)" font-size="8" class="svg-fill">Mode</text>
-            <path class="svg-fill" d="M91.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S91.3,23.3,91.3,24z M94,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S94.7,22.7,94,22.7z M98,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3 s1.3-0.6,1.3-1.3S98.7,22.7,98,22.7z M31.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S31.3,23.3,31.3,24z M34,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S34.7,22.7,34,22.7z M38,22.7c-0.7,0-1.3,0.6-1.3,1.3 s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S38.7,22.7,38,22.7z M83.4,23.8h-2.6l1.3,2.3L83.4,23.8z"/>
-            <text transform="matrix(1 0 0 1 18.3362 13.4025)" font-size="5" class="svg-fill">Snipping Tool</text>
-            <path class="svg-outline" d="M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1 c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6 S12.7,13.4,12.4,13.4z M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M10.8,10.2 c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M44.3,27h12v-6h-12V27z M120,56V8H8 v48 M8,16h112 M8,32h112"/>
-          </svg>
-        </div>
-      </section>
-    </article>
-    <article id="gamebar">
-      <section class="intro">
-        <h1 class="intro-title">Game Bar</h1>
-        <p>Added in Windows 10, the Game Bar allows for easy recording and screenshotting of games.</p>
-        <p>The Game Bar must be enabled in the Windows Settings app, and may not work for all games.</p>
-      </section>
-      <section class="step" id="gamebar-1">
-        <div class="step-half step-text">
-          <h2 class="step-title">1</h2>
-          <p>Press the <kbd>Windows</kbd> and <kbd>G</kbd> keys to open the Game Bar.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg viewBox="0 0 512 168">
-            <path class="svg-outline" d="M8.7 38.9h22.2V61H8.7zm26.4 0h22.2V61H35.1zm26.4 0h22.2V61H61.5zm26.4 0h22.2V61H87.9zm26.4 0h22.2V61h-22.2zm26.5 0H163V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61H220zm26.5 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.5 0h22.2V61h-22.2zM8.7 8.1h22.2v22.1H8.7zM50.9 8.1h22.2v22.1H50.9zm26.4 0h22.2v22.1H77.3zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm44.2 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm45.7 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zM8.7 63.7h38.4v22.1H8.7zm42.6 0h22.2v22.1H51.3zm26.4 0h22.2v22.1H77.7zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1H157zm26.4 0h22.2v22.1h-22.2zm26.4 0H232v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h32.4v22.1h-32.4zM8.7 113.2h54.4v22.1H8.7zm58.6 0h22.2v22.1H67.3zm26.4 0h22.2v22.1H93.7zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0H248v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1H305zM8.7 88.4h44.5v22.1H8.7zm48.7 0h22.2v22.1H57.4zm26.4 0H106v22.1H83.8zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm52.8 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0H291v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h52.7v22.1H348zm-16.5 24.8h69.3v22.1h-69.3zM8.7 138h38.4v22.1H8.7zm69 0h27.1v22.1H77.7zm30.9 0h171.2v22.1H108.6zm206.9 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h32.4v22.1h-32.4zm-84.3 0h27.1v22.1H284zm145.2-99.1h22.2V61h-22.2zm26.6 0H478V61h-22.2zm26.7 0h22.2V61h-22.2zm-53.3 24.8h22.2v22.1h-22.2zm26.6 0H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zM455.8 8.1H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zM429.2 138h22.2v22.1h-22.2zm26.6 0H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zm-26.7-24.8H478v22.1h-22.2zM429.2 8.1h22.2v22.1h-22.2z"/>
-            <path class="svg-fill" d="M51.3 138h22.2v22.1H51.3zm111.8-49.6h22.2v22.1h-22.2z" />
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="gamebar-2">
-        <div class="step-half step-text">
-          <h2 class="step-title">2</h2>
-          <p>Select the <em>Screenshot</em> button.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg viewBox="0 0 256 62">
-            <path class="svg-fill-mid" d="M108 11h40v40h-40z" />
-            <path class="svg-outline" d="M248 54H8V8h240v46zM138.4 22.4l-4.9-4.9h-11l-4.9 4.9H112v18h32v-18h-5.6zM135 30c0-3.9-3.1-7-7-7s-7 3.1-7 7 3.1 7 7 7 7-3.1 7-7z"/>
-            <path class="svg-fill" d="M117 26c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5.7-1.5 1.5-1.5 1.5.7 1.5 1.5zm-39 2c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm12 3c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm9 0c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm61-3c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm12 3c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm9 0c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3z"/>
-          </svg>
-        </div>
-      </section>
-      <section class="step" id="gamebar-3">
-        <div class="step-half step-text">
-          <h2 class="step-title">3</h2>
-          <p>Your screenshot can be found in the <code>C:\Users\&lt;yourname&gt;\Videos\Captures</code> folder.</p>
-          <p>Note: You can copy/paste <code>%USERPROFILE%\Videos\Captures</code> into the Explorer location bar to go straight to this folder.</p>
-        </div>
-        <div class="step-half step-diagram">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128">
-            <path class="svg-outline" d="M8,120V8h240v112 M8,16h240 M8,32h240 M40,32v88 M245,19H40v10h205V19z M13.3,23.9h6.6 M12.9,24.3l3.5-3.5 M12.9,23.6l3.7,3.7 M32,24.1h-6.6 M32.3,23.7l-3.5,3.5 M32.3,24.4l-3.7-3.7" />
-            <rect x="48" y="40" class="svg-outline svg-fill-mid" width="32" height="18" />
-            <text transform="matrix(1 0 0 1 47.25 64)" font-size="5" class="svg-fill">Screenshot.png</text>
-            <text transform="matrix(1 0 0 1 48 27.348)" font-size="8" class="svg-fill">%USERPROFILE%\Videos\Captures</text>
-          </svg>
-        </div>
-      </section>
-    </article>
-  </main>
-  <footer>
-    <p>
-      &copy; <a href="https://sthom.kiwi">Stuart Thomson</a> 2017 | 
-      <a href="http://github.com/s-thom/howtoscreenshot">Source code</a>
-    </p>
-  </footer>
-</body>
+              M8,32h112"
+              />
+              <line
+                class="svg-outline"
+                stroke-width="2"
+                x1="99.5"
+                y1="20.2"
+                x2="91.8"
+                y2="27.8"
+              />
+              <path
+                class="svg-fill"
+                d="M83.8,25.5l-1.3-2.3h2.6L83.8,25.5z M115.7,25.1v-2.3l-2.7-2.7l-6.7,2.7v2.3l2.7,2.7L115.7,25.1z M57,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S57.7,22.7,57,22.7z M62.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3 s0.6-1.3,1.3-1.3S62.3,23.3,62.3,24z M66.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S66.3,23.3,66.3,24z"
+              />
+            </svg>
+          </div>
+        </section>
+        <section class="step" id="partial-extra-mode">
+          <div class="step-half step-text">
+            <h2 class="step-title">Extra: Mode</h2>
+            <p>
+              Selecting the <em>Mode</em> buttons in the menu bar allows you to
+              change the capture mode.
+            </p>
+            <p>
+              The default mode is "Rectangular Snip". You can also take a
+              screenshot of a specific window ("Window Snip"), the entire screen
+              ("Fullscreen Snip"), or a drawn shape ("Free-form Snip").
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64">
+              <rect x="43" y="18" class="svg-fill-mid" width="42" height="12" />
+              <text
+                transform="matrix(1 0 0 1 57.9166 26.8436)"
+                font-size="8"
+                class="svg-fill"
+              >
+                Mode
+              </text>
+              <path
+                class="svg-fill"
+                d="M91.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S91.3,23.3,91.3,24z M94,22.7 c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S94.7,22.7,94,22.7z M98,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3 s1.3-0.6,1.3-1.3S98.7,22.7,98,22.7z M31.3,24c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3S31.3,23.3,31.3,24z M34,22.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S34.7,22.7,34,22.7z M38,22.7c-0.7,0-1.3,0.6-1.3,1.3 s0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3S38.7,22.7,38,22.7z M83.4,23.8h-2.6l1.3,2.3L83.4,23.8z"
+              />
+              <text
+                transform="matrix(1 0 0 1 18.3362 13.4025)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Snipping Tool
+              </text>
+              <path
+                class="svg-outline"
+                d="M11.5,11.8l1.5,1.5 M12.6,11.4v2.1 M13.1,13.2c-0.2,0.2-0.1,0.5,0.1,0.7c0.2,0.2,0.5,0.3,0.7,0.1 c0.2-0.2,0.1-0.5-0.1-0.7C13.6,13.1,13.3,13.1,13.1,13.2z M12.4,13.4c-0.2,0-0.4,0.3-0.4,0.6s0.2,0.6,0.4,0.6s0.4-0.3,0.4-0.6 S12.7,13.4,12.4,13.4z M118.5,9.5l-5,5 M118.5,14.5l-5-5 M106,14.5h5v-5h-5V14.5z M103.5,14.5h-5 M10.8,10.2 c-1,0.6-1.5,1.6-1.1,2.3s1.6,0.8,2.6,0.2c1-0.6,1.5-1.6,1.1-2.3C12.9,9.7,11.8,9.6,10.8,10.2z M44.3,27h12v-6h-12V27z M120,56V8H8 v48 M8,16h112 M8,32h112"
+              />
+            </svg>
+          </div>
+        </section>
+      </article>
+      <article id="gamebar">
+        <section class="intro">
+          <h1 class="intro-title">Game Bar</h1>
+          <p>
+            Added in Windows 10, the Game Bar allows for easy recording and
+            screenshotting of games.
+          </p>
+          <p>
+            The Game Bar must be enabled in the Windows Settings app, and may
+            not work for all games.
+          </p>
+        </section>
+        <section class="step" id="gamebar-1">
+          <div class="step-half step-text">
+            <h2 class="step-title">1</h2>
+            <p>
+              Press the <kbd>Windows</kbd> and <kbd>G</kbd> keys to open the
+              Game Bar.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg viewBox="0 0 512 168">
+              <path
+                class="svg-outline"
+                d="M8.7 38.9h22.2V61H8.7zm26.4 0h22.2V61H35.1zm26.4 0h22.2V61H61.5zm26.4 0h22.2V61H87.9zm26.4 0h22.2V61h-22.2zm26.5 0H163V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61H220zm26.5 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.4 0h22.2V61h-22.2zm26.5 0h22.2V61h-22.2zM8.7 8.1h22.2v22.1H8.7zM50.9 8.1h22.2v22.1H50.9zm26.4 0h22.2v22.1H77.3zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm44.2 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm45.7 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zM8.7 63.7h38.4v22.1H8.7zm42.6 0h22.2v22.1H51.3zm26.4 0h22.2v22.1H77.7zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1H157zm26.4 0h22.2v22.1h-22.2zm26.4 0H232v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h32.4v22.1h-32.4zM8.7 113.2h54.4v22.1H8.7zm58.6 0h22.2v22.1H67.3zm26.4 0h22.2v22.1H93.7zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm26.4 0H248v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1H305zM8.7 88.4h44.5v22.1H8.7zm48.7 0h22.2v22.1H57.4zm26.4 0H106v22.1H83.8zm26.4 0h22.2v22.1h-22.2zm26.5 0h22.2v22.1h-22.2zm52.8 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.5 0H291v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h52.7v22.1H348zm-16.5 24.8h69.3v22.1h-69.3zM8.7 138h38.4v22.1H8.7zm69 0h27.1v22.1H77.7zm30.9 0h171.2v22.1H108.6zm206.9 0h22.2v22.1h-22.2zm26.4 0h22.2v22.1h-22.2zm26.4 0h32.4v22.1h-32.4zm-84.3 0h27.1v22.1H284zm145.2-99.1h22.2V61h-22.2zm26.6 0H478V61h-22.2zm26.7 0h22.2V61h-22.2zm-53.3 24.8h22.2v22.1h-22.2zm26.6 0H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zM455.8 8.1H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zM429.2 138h22.2v22.1h-22.2zm26.6 0H478v22.1h-22.2zm26.7 0h22.2v22.1h-22.2zm-26.7-24.8H478v22.1h-22.2zM429.2 8.1h22.2v22.1h-22.2z"
+              />
+              <path
+                class="svg-fill"
+                d="M51.3 138h22.2v22.1H51.3zm111.8-49.6h22.2v22.1h-22.2z"
+              />
+            </svg>
+          </div>
+        </section>
+        <section class="step" id="gamebar-2">
+          <div class="step-half step-text">
+            <h2 class="step-title">2</h2>
+            <p>Select the <em>Screenshot</em> button.</p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg viewBox="0 0 256 62">
+              <path class="svg-fill-mid" d="M108 11h40v40h-40z" />
+              <path
+                class="svg-outline"
+                d="M248 54H8V8h240v46zM138.4 22.4l-4.9-4.9h-11l-4.9 4.9H112v18h32v-18h-5.6zM135 30c0-3.9-3.1-7-7-7s-7 3.1-7 7 3.1 7 7 7 7-3.1 7-7z"
+              />
+              <path
+                class="svg-fill"
+                d="M117 26c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5.7-1.5 1.5-1.5 1.5.7 1.5 1.5zm-39 2c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm12 3c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm9 0c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm61-3c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm12 3c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3zm9 0c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3 3 1.3 3 3z"
+              />
+            </svg>
+          </div>
+        </section>
+        <section class="step" id="gamebar-3">
+          <div class="step-half step-text">
+            <h2 class="step-title">3</h2>
+            <p>
+              Your screenshot can be found in the
+              <code>C:\Users\&lt;yourname&gt;\Videos\Captures</code> folder.
+            </p>
+            <p>
+              Note: You can copy/paste
+              <code>%USERPROFILE%\Videos\Captures</code> into the Explorer
+              location bar to go straight to this folder.
+            </p>
+          </div>
+          <div class="step-half step-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128">
+              <path
+                class="svg-outline"
+                d="M8,120V8h240v112 M8,16h240 M8,32h240 M40,32v88 M245,19H40v10h205V19z M13.3,23.9h6.6 M12.9,24.3l3.5-3.5 M12.9,23.6l3.7,3.7 M32,24.1h-6.6 M32.3,23.7l-3.5,3.5 M32.3,24.4l-3.7-3.7"
+              />
+              <rect
+                x="48"
+                y="40"
+                class="svg-outline svg-fill-mid"
+                width="32"
+                height="18"
+              />
+              <text
+                transform="matrix(1 0 0 1 47.25 64)"
+                font-size="5"
+                class="svg-fill"
+              >
+                Screenshot.png
+              </text>
+              <text
+                transform="matrix(1 0 0 1 48 27.348)"
+                font-size="8"
+                class="svg-fill"
+              >
+                %USERPROFILE%\Videos\Captures
+              </text>
+            </svg>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &copy; <a href="https://sthom.kiwi">Stuart Thomson</a> 2017 |
+        <a href="http://github.com/s-thom/howtoscreenshot">Source code</a>
+      </p>
+    </footer>
+  </body>
 </html>

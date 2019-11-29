@@ -6,12 +6,14 @@
  */
 
 // Register service worker
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
-    .then(function () {
-      console.log('SW registration success');
-    }).catch(function (err) {
-      console.error('SW registration failed');
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/sw.js")
+    .then(function() {
+      console.log("SW registration success");
+    })
+    .catch(function(err) {
+      console.error("SW registration failed");
       console.error(err);
     });
 }
