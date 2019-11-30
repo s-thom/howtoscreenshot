@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\"",
-    "workbox": "workbox generateSW workbox-config.js"
+    "workbox": "workbox generateSW workbox-config.js",
+    "prepare": "npm run workbox"
   },
   "author": "Stuart Thomson",
   "license": "MIT",
