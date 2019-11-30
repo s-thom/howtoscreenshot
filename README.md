@@ -18,33 +18,35 @@ Contributions are welcome. Fork, make changes, create a Pull Request.
 
 A few points to consider as you make changes:
 
-* The site must work on mobile devices.
-* The site must work offline (using service workers).
-  * This includes updating the CACHE nmumber in sw.js if it is changed.
-* The site must work without Javascript enabled.
-  * Only scripts should be to register service worker, service worker itself, and analytics (in the future).
-* Reduce network requests.
-  * Don't use &lt;img/&gt; tags, use inline &lt;svg&gt; instead.
+- The site must work on mobile devices.
+- The site must work offline (using service workers).
+  - This includes updating the CACHE nmumber in sw.js if it is changed.
+- The site must work without Javascript enabled.
+  - Only scripts should be to register service worker, service worker itself, and analytics (in the future).
+- Reduce network requests.
+  - Don't use &lt;img/&gt; tags, use inline &lt;svg&gt; instead.
 
 ### Things to work on
 
 #### Features
 
-* [x] Offline (service worker)
-* [ ] Better diagrams
-* [ ] Translation
-* [x] Analytics (may want in final release) (?)
-* [x] OpenGraph/Twitter meta tags
+- [x] Offline (service worker)
+- [ ] Better diagrams
+- [ ] Translation
+- [x] Analytics (may want in final release) (?)
+- [x] OpenGraph/Twitter meta tags
+- [ ] Other keyboard layouts
 
 #### Platforms
 
-* [x] Windows
-* [x] Mac
-* [x] Linux (?)
-* [x] Android
-* [x] iOS
-* [x] XBox
-* [x] PS4
-* [x] Steam (?)
-* [ ] 3rd party programs (?)
-* [ ] Webpages (browser extension) (?)
+- [x] Windows
+- [x] Mac
+- [x] Linux (?)
+- [x] Android
+- [x] iOS
+- [x] XBox
+- [x] PS4
+- [x] Steam (?)
+- [ ] Nintendo Switch
+- [ ] 3rd party programs (?)
+- [ ] Webpages (browser extension) (?)
