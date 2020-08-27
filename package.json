@@ -1,6 +1,6 @@
 {
   "name": "screenshot",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A website help people screenshot things",
   "main": " ",
   "scripts": {
@@ -12,13 +12,13 @@
   "author": "Stuart Thomson",
   "license": "MIT",
   "devDependencies": {
-    "@prettier/plugin-xml": "^0.3.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.19.1",
-    "workbox-cli": "^4.3.1"
+    "@prettier/plugin-xml": "^0.11.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "workbox-cli": "^6.0.0-alpha.2"
   }
 }
