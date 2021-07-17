@@ -12,13 +12,13 @@
   "author": "Stuart Thomson",
   "license": "MIT",
   "devDependencies": {
-    "@prettier/plugin-xml": "^0.11.0",
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1",
-    "workbox-cli": "^6.0.0-alpha.2"
+    "@prettier/plugin-xml": "^1.0.2",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "workbox-cli": "^6.1.5"
   }
 }
