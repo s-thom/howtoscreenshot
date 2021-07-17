@@ -20,7 +20,7 @@ A few points to consider as you make changes:
 
 - The site must work on mobile devices.
 - The site must work offline (using service workers).
-  - This includes updating the CACHE nmumber in sw.js if it is changed.
+  - This should mostly just work with Workbox generating the service worker.
 - The site must work without Javascript enabled.
   - Only scripts should be to register service worker, service worker itself, and analytics (in the future).
 - Reduce network requests.
