@@ -46,6 +46,8 @@ A few points to consider as you make changes:
 - [x] iOS
 - [x] XBox
 - [x] PS4
+- [x] PS5
+  - [ ] Images
 - [x] Steam (?)
 - [ ] Nintendo Switch
 - [ ] 3rd party programs (?)
