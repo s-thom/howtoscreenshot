@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 a,
 a:hover,
 a:active,
 a:focus,
 a:visited {
-  color: #fff;
+  color: #d6d6d6;
 }
 a:hover {
   text-decoration: none;
@@ -22,7 +28,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: #050610;
-  color: #fff;
+  color: #b8b8b8;
 
   font-size: 1.1rem;
 
@@ -51,6 +57,11 @@ header a {
 .page-title h1 {
   font-weight: 400;
   margin: 0.5em;
+}
+
+h1.main-title,
+h1.page-title {
+  color: #e2e2e2;
 }
 
 .site-title {
@@ -109,7 +120,7 @@ nav.fullsize {
 
 main {
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 1.5em;
   max-width: 72rem;
   flex-grow: 1;
 }
@@ -139,8 +150,13 @@ kbd {
   border-radius: 0.2em;
 }
 
+.main-title {
+  font-size: 2em;
+  font-weight: 400;
+}
+
 .intro-title {
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: 400;
 }
 
