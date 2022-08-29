@@ -78,8 +78,9 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
   justify-content: center;
+  gap: 0.5em;
 }
 
 nav li {
@@ -211,6 +212,10 @@ kbd {
   .site-title {
     font-size: 2em;
   }
+
+  nav ul {
+    font-size: 0.7em;
+  }
 }
 
 @media screen and (min-device-width: 768px) {
@@ -224,5 +229,9 @@ kbd {
 
   .step-half {
     width: 50%;
+  }
+
+  nav ul {
+    font-size: 0.8em;
   }
 }
