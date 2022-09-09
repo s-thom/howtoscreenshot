@@ -1,13 +1,11 @@
 {
   "name": "screenshot",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "A website help people screenshot things",
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\"",
-    "workbox": "workbox generateSW workbox-config.js",
-    "prepare": "npm run workbox"
+    "prettier": "prettier --write \"{public,src}/**/*.{js,html,css,json,svg}\""
   },
   "author": "Stuart Thomson",
   "license": "MIT",
