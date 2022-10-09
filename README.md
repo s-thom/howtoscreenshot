@@ -26,15 +26,18 @@ A few points to consider as you make changes:
 - Reduce network requests.
   - Don't use &lt;img/&gt; tags, use inline &lt;svg&gt; instead.
 
+### Contributors
+
+A big thank you to the following people for their contributions to this project:
+
+- [@ExperiBass](https://github.com/ExperiBass): Adding instructions for GNOME screenshot to the Linux page
+
 ### Things to work on
 
 #### Features
 
-- [x] Offline (service worker)
 - [ ] Better diagrams
 - [ ] Translation
-- [x] Analytics (may want in final release) (?)
-- [x] OpenGraph/Twitter meta tags
 - [ ] Other keyboard layouts
 
 #### Platforms
@@ -50,5 +53,6 @@ A few points to consider as you make changes:
   - [ ] Images
 - [x] Steam (?)
 - [ ] Nintendo Switch
+- [ ] Steam Deck
 - [ ] 3rd party programs (?)
 - [ ] Webpages (browser extension) (?)
