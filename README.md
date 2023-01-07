@@ -19,10 +19,8 @@ Contributions are welcome. Fork, make changes, create a Pull Request.
 A few points to consider as you make changes:
 
 - The site must work on mobile devices.
-- The site must work offline (using service workers).
-  - This should mostly just work with Workbox generating the service worker.
 - The site must work without Javascript enabled.
-  - Only scripts should be to register service worker, service worker itself, and analytics (in the future).
+  - Only scripts should be ~~to register service worker, service worker itself, and~~ analytics.
 - Reduce network requests.
   - Don't use &lt;img/&gt; tags, use inline &lt;svg&gt; instead.
 
@@ -45,15 +43,15 @@ A big thank you to the following people for their contributions to this project:
 
 - [x] Windows
 - [x] Mac
-- [x] Linux (?)
+- [x] Linux
 - [x] Android
 - [x] iOS
 - [x] XBox
 - [x] PS4
 - [x] PS5
   - [ ] Images
-- [x] Steam (?)
-- [ ] Nintendo Switch
+- [x] Steam
+- [x] Nintendo Switch
 - [ ] Steam Deck
 - [ ] 3rd party programs (?)
 - [ ] Webpages (browser extension) (?)
