@@ -31,6 +31,7 @@ A few points to consider as you make changes:
 A big thank you to the following people for their contributions to this project:
 
 - [@ExperiBass](https://github.com/ExperiBass): Adding instructions for GNOME screenshot to the Linux page
+- [@dgw](https://github.com/dgw): Adding instructions for transferring screenshots off of Switch
 
 ### Things to work on
 
