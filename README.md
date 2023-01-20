@@ -4,13 +4,14 @@ Because after years of computing, some people just don't know how.
 
 ## Why have another "How to screenshot" website?
 
-[take-a-screenshot](https://www.take-a-screenshot.org/)
+[Take A Screenshot](https://www.take-a-screenshot.org/) is, probably, the most popular reference for how to take a screenshot. It's definitely high up on every Google search on the topic, so I imagine they get a lot of traffic. When I started this project in 2017, the site was using an old version of jQuery, was covered in ads, and made around 50 web requests.
 
-Let's face it. That site is old and dated. It uses jQuery version 1.9, meaning it was created somewhere around early-mid 2013. It's bloated, making around 50 network requests per page (including analytics and share widgets, with even more once the ads load). The bottom of the screen is taken up by a cookie warning banner. It even has a nicely sized [terms of service](https://www.take-a-screenshot.org/en/terms.html) page, and more legal-ish information in the [about](https://www.take-a-screenshot.org/de/about.html) page.
+Here's what they've done since then:
 
-All of this takes away from the fact that it's a website about taking a screenshot. It should be simple, tell you how to take a screenshot, then get out of your way.
+- Updated jQuery, added dark mode, and removed the share widgets (credit where it's due).
+- Added more ads.
 
-That's the goal of this repository.
+All of this takes away from the fact that it's a website about taking a screenshot. It should be simple, tell you how to take a screenshot, then get out of your way. That's what I set out to create.
 
 ## Contributing
 
@@ -30,6 +31,7 @@ A big thank you to the following people for their contributions to this project:
 
 - [@ExperiBass](https://github.com/ExperiBass): Adding instructions for GNOME screenshot to the Linux page
 - [@dgw](https://github.com/dgw): Adding instructions for transferring screenshots off of Switch
+- [/u/Charlie7Mason](https://www.reddit.com/user/Charlie7Mason/) and [@bem13](https://github.com/bem13): Suggestions for the Windows instructions
 
 ### Things to work on
 
