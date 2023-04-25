@@ -36,8 +36,8 @@
       defer
       data-do-not-track="true"
       data-domains="screenshot.help"
-      data-website-id="6ad9bbee-67d0-4792-996c-3e15ab0e9742"
-      src="https://analytics.sthom.kiwi/umami.js"
+      data-website-id="bd8126bf-7b53-4eaf-8550-48ff17174b10"
+      src="https://umami.sthom.kiwi/script.js"
     ></script>
   </head>
 
@@ -51,7 +51,7 @@
       <nav>
         <ul>
           <li>
-            <a href="/windows">
+            <a href="/windows" data-umami-event="nav-windows">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
                 <path
                   class="svg-fill"
@@ -62,7 +62,7 @@
             </a>
           </li>
           <li class="current">
-            <a href="/mac">
+            <a href="/mac" data-umami-event="nav-mac">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170">
                 <path
                   class="svg-fill"
@@ -73,7 +73,7 @@
             </a>
           </li>
           <li>
-            <a href="/linux">
+            <a href="/linux" data-umami-event="nav-linux">
               <svg viewBox="0 0 280 330" xmlns="http://www.w3.org/2000/svg">
                 <path
                   class="svg-fill"
@@ -84,7 +84,7 @@
             </a>
           </li>
           <li>
-            <a href="/android">
+            <a href="/android" data-umami-event="nav-android">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.2 348.9">
                 <path
                   class="svg-fill"
@@ -95,7 +95,7 @@
             </a>
           </li>
           <li>
-            <a href="/ios">
+            <a href="/ios" data-umami-event="nav-ios">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 196">
                 <path
                   class="svg-fill"
@@ -106,7 +106,7 @@
             </a>
           </li>
           <li>
-            <a href="/steam">
+            <a href="/steam" data-umami-event="nav-steam">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233 233">
                 <path
                   class="svg-fill"
@@ -117,7 +117,7 @@
             </a>
           </li>
           <li>
-            <a href="/switch">
+            <a href="/switch" data-umami-event="nav-switch">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482.9 483">
                 <path
                   class="svg-fill"
@@ -128,7 +128,7 @@
             </a>
           </li>
           <li>
-            <a href="/xbox">
+            <a href="/xbox" data-umami-event="nav-xbox">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.4 372.6">
                 <path
                   class="svg-fill"
@@ -141,7 +141,7 @@
             </a>
           </li>
           <li>
-            <a href="/playstation">
+            <a href="/playstation" data-umami-event="nav-playstation">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 154.8">
                 <path
                   class="svg-fill"
@@ -294,8 +294,15 @@
     </main>
     <footer>
       <p>
-        <a href="https://sthom.kiwi">Stuart Thomson</a> 2023 |
-        <a href="http://github.com/s-thom/howtoscreenshot">Source code</a>
+        <a href="https://sthom.kiwi" data-umami-event="footer-sthom"
+          >Stuart Thomson</a
+        >
+        2023 |
+        <a
+          href="http://github.com/s-thom/howtoscreenshot"
+          data-umami-event="footer-github"
+          >Source code</a
+        >
       </p>
     </footer>
   </body>
