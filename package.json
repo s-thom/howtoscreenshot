@@ -10,8 +10,8 @@
   "author": "Stuart Thomson",
   "license": "MIT",
   "devDependencies": {
-    "@prettier/plugin-xml": "^3.2.0",
-    "eslint": "^8.48.0",
+    "@prettier/plugin-xml": "^3.2.1",
+    "eslint": "^8.50.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
