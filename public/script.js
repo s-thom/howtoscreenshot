@@ -19,7 +19,26 @@ if ("serviceWorker" in navigator) {
 }
 
 function userAgentDetectDevice(){
-  return ""
+  // if the userAgent contains "Windows"
+  if(navigator.userAgent.indexOf("Windows") !== -1){
+    return "Windows"
+  }
+  // if the userAgent contains "Macintosh"
+  else if(navigator.userAgent.indexOf("Macintosh") !== -1){
+    return "macOS"
+  }
+  // if the userAgent contains "Linux"
+  else if(navigator.userAgent.indexOf("Linux") !== -1){
+    return "Linux"
+  }
+  // if the userAgent contains "Android"
+  else if(navigator.userAgent.indexOf("Android") !== -1){
+    return "Android"
+  }
+  // if the userAgent contains "iPhone" or "iPad" or "iPod"
+  else if(navigator.userAgent.indexOf("iPhone") !== -1 || navigator.userAgent.indexOf("iPad") !== -1 || navigator.userAgent.indexOf("iPod") !== -1){
+    return "iOS"
+  }
 }
 
 function detectDevice(){
@@ -30,7 +49,7 @@ function detectDevice(){
       return "Windows"
     }
     // macOS
-    else if(navigator.userAgentData.platform === "MacIntel"){
+    else if(navigator.userAgentData.platform === "MacIntel" || navigator.userAgentData.platform === "macOS"){
       return "macOS"
     }
     // linux
