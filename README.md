@@ -32,6 +32,7 @@ A big thank you to the following people for their contributions to this project:
 - [@ExperiBass](https://github.com/ExperiBass): Adding instructions for GNOME screenshot to the Linux page
 - [@dgw](https://github.com/dgw): Adding instructions for transferring screenshots off of Switch
 - [/u/Charlie7Mason](https://www.reddit.com/user/Charlie7Mason/) and [@bem13](https://github.com/bem13): Suggestions for the Windows instructions
+- [@IsaacHatton](https://github.com/IsaacHatton): Adding basic JS platform detection on the homepage
 
 ### Things to work on
 
