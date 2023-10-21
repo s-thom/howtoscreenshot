@@ -78,7 +78,7 @@ if (document.getElementById("detectDeviceMessage")) {
   // Detect device
   const device = detectDevice();
   if(device === ""){
-    console.log("detectDevice() retruned an empty string")
+    console.log("detectDevice() returned an empty string")
   }else{
     // Get detectDeviceMessage element
     const detectDeviceMessage = document.getElementById("detectDeviceMessage");
