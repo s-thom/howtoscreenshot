@@ -48,30 +48,35 @@ function detectDevice(){
   // if navigator.userAgentData is not supported
   if (!(navigator.userAgentData && navigator.userAgentData.platform)) {
     return userAgentDetectDevice();
-  }else{
-    // try to detect using navigator.userAgentData.platform
-    // windows
-    if(navigator.userAgentData.platform === "Windows"){
-      return "Windows"
-    }
-    // macOS
-    else if(navigator.userAgentData.platform === "MacIntel" || navigator.userAgentData.platform === "macOS"){
-      return "macOS"
-    }
-    // linux
-    else if(navigator.userAgentData.platform === "Linux x86_64"){
-      return "Linux"
-    }
-    // android
-    else if(navigator.userAgentData.platform === "Android"){
-      return "Android"
-    }
-    // ios
-    else if(navigator.userAgentData.platform === "iPhone" || navigator.userAgentData.platform === "iPad" || navigator.userAgentData.platform === "iPod"){
-      return "iOS"
-    }else{
-      console.log("navigator.userAgentData.platform didn't return a supported value")
-      return userAgentDetectDevice()
+  } else {
+    switch (navigator.userAgentData.platform) {
+      // try to detect using navigator.userAgentData.platform
+      // windows
+      case "Windows":
+        // Windows-specific code here
+        return "Windows"
+      // macOS
+      case "MacIntel":
+        // macOS-specific code here
+        return "macOS"
+      // linux
+      case "Linux x86_64":
+        // Linux-specific code here
+        return "Linux"
+      // android
+      case "Android":
+        // Android-specific code here
+        return "Android"
+      // ios
+      case "iPhone":
+      case "iPad":
+      case "iPod":
+        // iOS-specific code here
+        return "iOS"
+      
+      default:
+        console.log("navigator.userAgentData.platform didn't return a supported value")
+        return userAgentDetectDevice()
     }
   }
 }
