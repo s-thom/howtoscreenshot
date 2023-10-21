@@ -38,6 +38,9 @@ function userAgentDetectDevice(){
   // if the userAgent contains "iPhone" or "iPad" or "iPod"
   else if(navigator.userAgent.indexOf("iPhone") !== -1 || navigator.userAgent.indexOf("iPad") !== -1 || navigator.userAgent.indexOf("iPod") !== -1){
     return "iOS"
+  }else{
+    console.log("navigator.userAgent didn't return a supported value")
+    return ""
   }
 }
 
