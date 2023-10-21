@@ -45,8 +45,11 @@ function userAgentDetectDevice(){
 }
 
 function detectDevice(){
-  // try to detect using navigator.userAgentData.platform
-  try{
+  // if navigator.userAgentData is not supported
+  if (!(navigator.userAgentData && navigator.userAgentData.platform)) {
+    return userAgentDetectDevice();
+  }else{
+    // try to detect using navigator.userAgentData.platform
     // windows
     if(navigator.userAgentData.platform === "Windows"){
       return "Windows"
@@ -70,9 +73,6 @@ function detectDevice(){
       console.log("navigator.userAgentData.platform didn't return a supported value")
       return userAgentDetectDevice()
     }
-  }catch(e){
-    console.log("navigator.userAgentData.platform not supported")
-    return userAgentDetectDevice()
   }
 }
 
