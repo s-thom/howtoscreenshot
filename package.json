@@ -4,8 +4,9 @@
   "description": "A website help people screenshot things",
   "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write \"public/**/*.{js,html,css,json,svg}\""
+    "test": "npm run prettier -- --check",
+    "prettier": "prettier \"public/**/*.{js,html,css,json,svg}\"",
+    "format": "npm run prettier -- --write"
   },
   "author": "Stuart Thomson",
   "license": "MIT",
