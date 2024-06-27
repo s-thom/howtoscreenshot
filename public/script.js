@@ -3,7 +3,8 @@
   prefer-arrow-callback,
   prefer-template,
   func-names,
- */
+  no-console
+*/
 
 // Register service worker
 if ("serviceWorker" in navigator) {
