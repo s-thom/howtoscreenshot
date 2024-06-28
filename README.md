@@ -33,6 +33,7 @@ A big thank you to the following people for their contributions to this project:
 - [@dgw](https://github.com/dgw): Adding instructions for transferring screenshots off of Switch
 - [/u/Charlie7Mason](https://www.reddit.com/user/Charlie7Mason/) and [@bem13](https://github.com/bem13): Suggestions for the Windows instructions
 - [@IsaacHatton](https://github.com/IsaacHatton): Adding basic JS platform detection on the homepage
+- [@infinity-atom](https://github.com/infinity-atom): Adding ChromeOS instructions
 
 ### Things to work on
 
@@ -47,6 +48,7 @@ A big thank you to the following people for their contributions to this project:
 - [x] Windows
 - [x] Mac
 - [x] Linux
+- [x] ChromeOS
 - [x] Android
 - [x] iOS
 - [x] XBox
