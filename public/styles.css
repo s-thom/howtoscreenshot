@@ -30,8 +30,6 @@ body {
   background-color: #050610;
   color: #b8b8b8;
 
-  font-size: 1.1rem;
-
   /* The "system" font stack. No extra downloaded fonts */
   font-family:
     system-ui,
@@ -134,6 +132,10 @@ nav.fullsize {
   font-size: 3em;
 }
 
+nav.standalone {
+  margin: 2rem 0;
+}
+
 main {
   margin: 0 auto;
   padding: 1.5em;
@@ -234,6 +236,10 @@ kbd {
 }
 
 @media screen and (min-device-width: 768px) {
+  :root {
+    font-size: 1.1rem;
+  }
+
   .site-title {
     font-size: 3em;
   }
