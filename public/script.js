@@ -19,36 +19,46 @@ if ("serviceWorker" in navigator) {
     });
 }
 
+const DEVICE_STRINGS = {
+  android: "Android",
+  chromeos: "ChromeOS",
+  ios: "iOS",
+  linux: "Linux",
+  mac: "Macintosh",
+  playstation: "Playstation",
+  steam: "Steam",
+  switch: "Switch",
+  windows: "Windows",
+  xbox: "Xbox",
+};
+
+/** @returns {keyof typeof DEVICE_STRINGS} */
 function userAgentDetectDevice() {
-  // if the userAgent contains "Windows"
   if (navigator.userAgent.indexOf("Windows") !== -1) {
-    return "Windows";
+    return "windows";
   }
-  // if the userAgent contains "Macintosh"
   if (navigator.userAgent.indexOf("Macintosh") !== -1) {
-    return "macOS";
+    return 'mac';
   }
-  // if the userAgent contains "Linux"
   if (navigator.userAgent.indexOf("Linux") !== -1) {
-    return "Linux";
+    return "linux";
   }
-  // if the userAgent contains "Android"
   if (navigator.userAgent.indexOf("Android") !== -1) {
-    return "Android";
+    return "android";
   }
-  // if the userAgent contains "iPhone" or "iPad" or "iPod"
   if (
     navigator.userAgent.indexOf("iPhone") !== -1 ||
     navigator.userAgent.indexOf("iPad") !== -1 ||
     navigator.userAgent.indexOf("iPod") !== -1
   ) {
-    return "iOS";
+    return "ios";
   }
 
   console.log("navigator.userAgent didn't return a supported value");
   return "";
 }
 
+/** @returns {keyof typeof DEVICE_STRINGS} */
 function detectDevice() {
   // if navigator.userAgentData is not supported
   if (!(navigator.userAgentData && navigator.userAgentData.platform)) {
@@ -56,28 +66,18 @@ function detectDevice() {
   }
   switch (navigator.userAgentData.platform) {
     // try to detect using navigator.userAgentData.platform
-    // windows
     case "Windows":
-      // Windows-specific code here
-      return "Windows";
-    // macOS
+      return "windows";
     case "MacIntel":
-      // macOS-specific code here
-      return "macOS";
-    // linux
+      return "mac";
     case "Linux x86_64":
-      // Linux-specific code here
-      return "Linux";
-    // android
+      return "linux";
     case "Android":
-      // Android-specific code here
-      return "Android";
-    // ios
+      return "android";
     case "iPhone":
     case "iPad":
     case "iPod":
-      // iOS-specific code here
-      return "iOS";
+      return "ios";
 
     default:
       console.log(
@@ -94,9 +94,19 @@ if (document.getElementById("detectDeviceMessage")) {
   if (device === "") {
     console.log("detectDevice() returned an empty string");
   } else {
-    // Get detectDeviceMessage element
     const detectDeviceMessage = document.getElementById("detectDeviceMessage");
-    // Set detectDeviceMessage element text
-    detectDeviceMessage.textContent = "You are using " + device;
+
+    // Clear children
+    detectDeviceMessage.textContent = "";
+
+    detectDeviceMessage.appendChild(document.createTextNode("You are using "));
+
+    const deviceLink = document.createElement("a");
+    deviceLink.classList.add('keep-underline')
+    deviceLink.href = "/" + device;
+    deviceLink.textContent = DEVICE_STRINGS[device];
+    detectDeviceMessage.appendChild(deviceLink);
+
+    detectDeviceMessage.appendChild(document.createTextNode("."));
   }
 }

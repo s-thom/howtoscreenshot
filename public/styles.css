@@ -56,7 +56,7 @@ header {
   flex-wrap: wrap;
 }
 
-header a {
+header a:not(.keep-underline) {
   text-decoration: none !important;
 }
 
