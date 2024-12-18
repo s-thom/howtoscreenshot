@@ -1,0 +1,111 @@
+User-agent: AI2Bot
+User-agent: Adagio Bot
+User-agent: Alertsite by Smartbear
+User-agent: Amazon AdBot
+User-agent: Amazon Contxbot
+User-agent: Amazonbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Audisto Crawler
+User-agent: Automaton
+User-agent: Awario
+User-agent: Better Uptime
+User-agent: Bing Ads
+User-agent: BlogVault
+User-agent: Brandwatch
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Clickagy
+User-agent: Cloudtrellis
+User-agent: Cludo
+User-agent: ContentKing
+User-agent: CriteoBot
+User-agent: Diffbot
+User-agent: Dr. Link Check
+User-agent: DuckAssistBot
+User-agent: DuckAssistbot
+User-agent: EvoUptimeBot
+User-agent: FacebookBot
+User-agent: Freshping
+User-agent: FullStory
+User-agent: GPTBot
+User-agent: GTmetrix
+User-agent: Ghost Inspector
+User-agent: Google AdSense
+User-agent: Google AdsBot
+User-agent: Google Schema Markup Testing Tool
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: HetrixTools
+User-agent: HoneybadgerBot
+User-agent: HostTracker
+User-agent: IAS crawler
+User-agent: ICC Crawler
+User-agent: InternetArchiveBot
+User-agent: Jagged Pixel UptimeBot
+User-agent: Jetpack
+User-agent: Kangaroo Bot
+User-agent: LINER Bot
+User-agent: Macrobondbot
+User-agent: MediaMonitoringBot
+User-agent: Medialogia Bot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: MgidBot
+User-agent: Missinglettr Bot
+User-agent: NETVIGIE
+User-agent: New Relic
+User-agent: Nodeping
+User-agent: OAI-SearchBot
+User-agent: Oh Dear
+User-agent: Outbrain
+User-agent: PanguBot
+User-agent: Parse.ly
+User-agent: PerplexityBot
+User-agent: PetalBot
+User-agent: Pingdom
+User-agent: PinterestBot
+User-agent: Proximic
+User-agent: QualifiedBot
+User-agent: Quantcastbot
+User-agent: Rackspace
+User-agent: Reelevant
+User-agent: RetroListeCOM
+User-agent: SE Ranking Bot
+User-agent: SalesViewerBot
+User-agent: Site24x7
+User-agent: Spectate
+User-agent: Splunk
+User-agent: StatusCake
+User-agent: Swifteq Link Checker
+User-agent: Synthetic Bot
+User-agent: Taboola
+User-agent: Timpibot
+User-agent: Trendiction Bot
+User-agent: UptimeRobot
+User-agent: Uptimia
+User-agent: WP Umbrella
+User-agent: WPMU DEV Broken Link Checker
+User-agent: WPMUDEV Uptime Monitor 5.0
+User-agent: Watchful
+User-agent: WebSpiderMount
+User-agent: Webzio-Extended
+User-agent: Yahoo Ad Monitoring
+User-agent: Yahoo Japan
+User-agent: YouBot
+User-agent: cohere-training-data-crawler
+User-agent: deadlinkchecker
+User-agent: eMoney Advisor
+User-agent: eRepublik.tools
+User-agent: elmah.io Uptime Monitoring
+User-agent: klaviyo
+User-agent: omgili
+User-agent: upday
+User-agent: videootv Bot
+User-agent: webpagetest
+Disallow: /
+
+User-agent: *
+Allow: /
