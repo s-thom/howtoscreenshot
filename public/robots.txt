@@ -12,7 +12,6 @@ User-agent: Awario
 User-agent: Better Uptime
 User-agent: Bing Ads
 User-agent: BlogVault
-User-agent: Brandwatch
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: ChatGPT-User
@@ -28,6 +27,7 @@ User-agent: DuckAssistBot
 User-agent: DuckAssistbot
 User-agent: EvoUptimeBot
 User-agent: FacebookBot
+User-agent: Factset_spyderbot
 User-agent: Freshping
 User-agent: FullStory
 User-agent: GPTBot
