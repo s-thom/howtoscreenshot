@@ -64,10 +64,12 @@ User-agent: Outbrain
 User-agent: PanguBot
 User-agent: Parse.ly
 User-agent: PerplexityBot
+User-agent: Perplexity‑User
 User-agent: PetalBot
 User-agent: Pingdom
 User-agent: PinterestBot
 User-agent: Proximic
+User-agent: Pulsetic
 User-agent: QualifiedBot
 User-agent: Quantcastbot
 User-agent: Rackspace
