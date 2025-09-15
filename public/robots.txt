@@ -117,7 +117,6 @@ User-agent: SiteUpTimeBot
 User-agent: Slickstream
 User-agent: SmartologyBot
 User-agent: SolarWinds Observability
-User-agent: Spectate
 User-agent: Splunk
 User-agent: Splunk Synthetics
 User-agent: StatusCake
