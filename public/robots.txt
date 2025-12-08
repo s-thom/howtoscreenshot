@@ -1,14 +1,18 @@
 User-agent: 360Monitoring
-User-agent: AI2Bot
+User-agent: AI2Bot-DeepResearchEval
 User-agent: ActiveComply Bot
 User-agent: AddSearchBot
 User-agent: AdsTxtCrawler
+User-agent: Ai2Bot-Dolma
 User-agent: Alertsite by Smartbear
 User-agent: Amazon AdBot
 User-agent: Amazonbot
+User-agent: Anomura
 User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Audisto Crawler
+User-agent: AutoRAG
+User-agent: Automaton
 User-agent: AwarioSmartBot
 User-agent: BestChange Bot
 User-agent: Better Uptime
@@ -20,6 +24,8 @@ User-agent: BrightEdge Bot
 User-agent: BugsNag
 User-agent: Bytespider
 User-agent: CCBot
+User-agent: Channel3Bot
+User-agent: ChatGLM-Spider
 User-agent: ChatGPT agent
 User-agent: ChatGPT-User
 User-agent: Checkly Bot
@@ -27,6 +33,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: ClaudeBot
 User-agent: CloudVertexBot
+User-agent: Cloudflare-AutoRAG
 User-agent: Cludo
 User-agent: ContentKing
 User-agent: ContextualBot
@@ -52,11 +59,12 @@ User-agent: Gemini-Deep-Research
 User-agent: Ghost Inspector
 User-agent: Google AdsBot
 User-agent: Google Adsense: Mediapartners-Google
+User-agent: Google Firebase
 User-agent: Google NotebookLM
 User-agent: Google Schema Markup Testing Tool
 User-agent: Google-CloudVertexBot
-User-agent: Google-Display-Ads-Bot
 User-agent: Google-Extended
+User-agent: Google-NotebookLM
 User-agent: GoogleOther
 User-agent: Grafana's Synthetic Monitoring
 User-agent: HetrixTools
@@ -68,29 +76,30 @@ User-agent: ICC-Crawler
 User-agent: IndeedJobBot
 User-agent: InternetArchiveBot
 User-agent: Jagged Pixel UptimeBot
-User-agent: Jetpack
 User-agent: Kangaroo Bot
 User-agent: Kinsta
+User-agent: KlaviyoAIBot
+User-agent: LCC
 User-agent: LeikiBot
 User-agent: LinerBot
+User-agent: LinkupBot
 User-agent: MagnetmeBot
+User-agent: Manus Bot
 User-agent: MediaMonitoringBot
 User-agent: Medialogia Bot
 User-agent: Mediatoolkitbot
-User-agent: Mediavine Medatada Parser
 User-agent: Meta-ExternalAds
 User-agent: Meta-ExternalAgent
 User-agent: MirrorWebCrawler
 User-agent: MistralAI-User
 User-agent: MonSpark
 User-agent: Monitage
-User-agent: Monsidobot
 User-agent: MontasticMonitor
 User-agent: NETVIGIE
-User-agent: Netumo
 User-agent: New Relic
 User-agent: NixStatsMonitoringBot
 User-agent: Nodeping
+User-agent: NostoCrawlerBot
 User-agent: OAI-SearchBot
 User-agent: Oh Dear
 User-agent: Onetrust CMP Scanner
@@ -104,20 +113,22 @@ User-agent: PetalBot
 User-agent: PingPing Bot
 User-agent: Pingdom
 User-agent: PinterestBot
-User-agent: Proximic
+User-agent: Poggio-Citations
+User-agent: Productsup Crawler
 User-agent: Pulsetic
 User-agent: QualifiedBot
 User-agent: Quantcastbot
 User-agent: Rackspace
 User-agent: Reelevant
+User-agent: SBIntuitionsBot
 User-agent: SE Ranking Bot
+User-agent: SalesViewerBot
 User-agent: Sentry Uptime Monitoring
 User-agent: Site24x7
 User-agent: SiteUpTimeBot
 User-agent: Slickstream
-User-agent: SmartologyBot
 User-agent: SolarWinds Observability
-User-agent: Spectate
+User-agent: Spider
 User-agent: Splunk
 User-agent: Splunk Synthetics
 User-agent: StatusCake
@@ -133,28 +144,38 @@ User-agent: UptimeBot
 User-agent: UptimeRobot
 User-agent: Uptimia
 User-agent: UptrendsBot
+User-agent: VelenPublicWebCrawler
 User-agent: WPMU DEV Broken Link Checker
 User-agent: WPMUDEV Uptime Monitor 5.0
 User-agent: Watchbot
 User-agent: WebsitePulseBot
-User-agent: Webzio-Extended
 User-agent: WormlyBot
 User-agent: Yahoo Ad Monitoring
 User-agent: Yahoo Japan
 User-agent: Yext Inc
 User-agent: YouBot
+User-agent: ZanistaBot
+User-agent: Zvelo
+User-agent: atlassian-bot
 User-agent: bigsur.ai
 User-agent: catchpoint
 User-agent: cohere-training-data-crawler
 User-agent: deadlinkchecker
 User-agent: eMoney Advisor
 User-agent: elmah.io Uptime Monitoring
+User-agent: honeybadgerbot
+User-agent: imageSpider
 User-agent: klaviyo
+User-agent: laion-huggingface-processor
 User-agent: logicmonitor
 User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+User-agent: meta-webindexer
 User-agent: netEstate Imprint Crawler
 User-agent: omgili
 User-agent: uptimedoctor
+User-agent: webpagetest
+User-agent: webzio-extended
 Disallow: /
 
 User-agent: *
