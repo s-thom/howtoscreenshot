@@ -76,6 +76,7 @@ User-agent: ICC-Crawler
 User-agent: IndeedJobBot
 User-agent: InternetArchiveBot
 User-agent: Jagged Pixel UptimeBot
+User-agent: Jetpack
 User-agent: Kangaroo Bot
 User-agent: Kinsta
 User-agent: KlaviyoAIBot
@@ -88,6 +89,7 @@ User-agent: Manus Bot
 User-agent: MediaMonitoringBot
 User-agent: Medialogia Bot
 User-agent: Mediatoolkitbot
+User-agent: Mediavine Medatada Parser
 User-agent: Meta-ExternalAds
 User-agent: Meta-ExternalAgent
 User-agent: MirrorWebCrawler
@@ -110,11 +112,13 @@ User-agent: Parse.ly
 User-agent: Perplexity-User
 User-agent: PerplexityBot
 User-agent: PetalBot
+User-agent: PhindBot
 User-agent: PingPing Bot
 User-agent: Pingdom
 User-agent: PinterestBot
 User-agent: Poggio-Citations
 User-agent: Productsup Crawler
+User-agent: Proximic
 User-agent: Pulsetic
 User-agent: QualifiedBot
 User-agent: Quantcastbot
@@ -123,18 +127,20 @@ User-agent: Reelevant
 User-agent: SBIntuitionsBot
 User-agent: SE Ranking Bot
 User-agent: SalesViewerBot
+User-agent: SemrushBot-OCOB
 User-agent: Sentry Uptime Monitoring
 User-agent: Site24x7
 User-agent: SiteUpTimeBot
 User-agent: Slickstream
 User-agent: SolarWinds Observability
 User-agent: Spider
-User-agent: Splunk
 User-agent: Splunk Synthetics
+User-agent: StatsDroneBot
 User-agent: StatusCake
 User-agent: Synthetic Bot
 User-agent: TTD Content
 User-agent: Taboola
+User-agent: TavilyBot
 User-agent: Thousand Eyes Cloud Agent
 User-agent: Timpibot
 User-agent: Trendiction Bot
