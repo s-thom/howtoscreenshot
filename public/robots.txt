@@ -1,4 +1,5 @@
 User-agent: 360Monitoring
+User-agent: AI Search
 User-agent: AI2Bot-DeepResearchEval
 User-agent: ActiveComply Bot
 User-agent: AddSearchBot
@@ -11,7 +12,6 @@ User-agent: Anomura
 User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Audisto Crawler
-User-agent: AutoRAG
 User-agent: Automaton
 User-agent: AwarioSmartBot
 User-agent: BestChange Bot
@@ -44,6 +44,7 @@ User-agent: Datenbank Crawler
 User-agent: Deepcrawl
 User-agent: Devin
 User-agent: Diffbot
+User-agent: Direqt Anomura
 User-agent: Doctom Monitor
 User-agent: DuckAssistBot
 User-agent: DuckAssistbot
@@ -179,7 +180,6 @@ User-agent: meta-externalfetcher
 User-agent: meta-webindexer
 User-agent: netEstate Imprint Crawler
 User-agent: omgili
-User-agent: uptimedoctor
 User-agent: webpagetest
 User-agent: webzio-extended
 Disallow: /
