@@ -1,4 +1,5 @@
 User-agent: 360Monitoring
+User-agent: AI Search
 User-agent: AI2Bot-DeepResearchEval
 User-agent: ActiveComply Bot
 User-agent: AddSearchBot
@@ -7,13 +8,15 @@ User-agent: Ai2Bot-Dolma
 User-agent: Alertsite by Smartbear
 User-agent: Amazon AdBot
 User-agent: Amazonbot
+User-agent: Amzn-SearchBot
+User-agent: Amzn-User
 User-agent: Anomura
 User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Audisto Crawler
-User-agent: AutoRAG
 User-agent: Automaton
 User-agent: AwarioSmartBot
+User-agent: AzureAI-SearchBot
 User-agent: BestChange Bot
 User-agent: Better Uptime
 User-agent: BinaryCanary
@@ -92,6 +95,7 @@ User-agent: Mediatoolkitbot
 User-agent: Mediavine Medatada Parser
 User-agent: Meta-ExternalAds
 User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
 User-agent: MirrorWebCrawler
 User-agent: MistralAI-User
 User-agent: MonSpark
@@ -151,10 +155,10 @@ User-agent: UptimeRobot
 User-agent: Uptimia
 User-agent: UptrendsBot
 User-agent: VelenPublicWebCrawler
-User-agent: WPMU DEV Broken Link Checker
 User-agent: WPMUDEV Uptime Monitor 5.0
 User-agent: Watchbot
 User-agent: WebsitePulseBot
+User-agent: Webstatus247
 User-agent: WormlyBot
 User-agent: Yahoo Ad Monitoring
 User-agent: Yahoo Japan
@@ -171,6 +175,7 @@ User-agent: eMoney Advisor
 User-agent: elmah.io Uptime Monitoring
 User-agent: honeybadgerbot
 User-agent: imageSpider
+User-agent: kagi-fetcher
 User-agent: klaviyo
 User-agent: laion-huggingface-processor
 User-agent: logicmonitor
@@ -179,7 +184,6 @@ User-agent: meta-externalfetcher
 User-agent: meta-webindexer
 User-agent: netEstate Imprint Crawler
 User-agent: omgili
-User-agent: uptimedoctor
 User-agent: webpagetest
 User-agent: webzio-extended
 Disallow: /
