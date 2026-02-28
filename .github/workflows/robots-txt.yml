@@ -3,7 +3,7 @@ name: Update robots.txt
 on:
   workflow_dispatch:
   schedule:
-    - cron: "13 6 * * 1"
+    - cron: "13 6 2 * 1"
 
 jobs:
   update-robots-txt:
