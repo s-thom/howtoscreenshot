@@ -38,7 +38,7 @@ function userAgentDetectDevice() {
     return "windows";
   }
   if (navigator.userAgent.indexOf("Macintosh") !== -1) {
-    return 'mac';
+    return "mac";
   }
   if (navigator.userAgent.indexOf("Linux") !== -1) {
     return "linux";
@@ -102,7 +102,7 @@ if (document.getElementById("detectDeviceMessage")) {
     detectDeviceMessage.appendChild(document.createTextNode("You are using "));
 
     const deviceLink = document.createElement("a");
-    deviceLink.classList.add('keep-underline')
+    deviceLink.classList.add("keep-underline");
     deviceLink.href = "/" + device;
     deviceLink.textContent = DEVICE_STRINGS[device];
     detectDeviceMessage.appendChild(deviceLink);
