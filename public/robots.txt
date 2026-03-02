@@ -155,6 +155,7 @@ User-agent: UptimeRobot
 User-agent: Uptimia
 User-agent: UptrendsBot
 User-agent: VelenPublicWebCrawler
+User-agent: WPMU DEV Broken Link Checker
 User-agent: WPMUDEV Uptime Monitor 5.0
 User-agent: Watchbot
 User-agent: WebsitePulseBot
