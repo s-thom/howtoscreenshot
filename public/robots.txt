@@ -19,11 +19,13 @@ User-agent: AwarioSmartBot
 User-agent: AzureAI-SearchBot
 User-agent: BestChange Bot
 User-agent: Better Uptime
+User-agent: BigScootsMonitor
 User-agent: BinaryCanary
 User-agent: Bing Ads
 User-agent: BlogVault
 User-agent: Bravebot
 User-agent: BrightEdge Bot
+User-agent: Browserbase
 User-agent: BugsNag
 User-agent: Bytespider
 User-agent: CCBot
@@ -36,6 +38,9 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: ClaudeBot
 User-agent: CloudVertexBot
+User-agent: Cloudflare Browser Rendering
+User-agent: Cloudflare Crawler
+User-agent: Cloudflare Observatory Curly
 User-agent: Cloudflare-AutoRAG
 User-agent: Cludo
 User-agent: ContentKing
@@ -45,15 +50,12 @@ User-agent: Crazy Egg Bot
 User-agent: CriteoBot
 User-agent: Datenbank Crawler
 User-agent: Deepcrawl
-User-agent: Devin
-User-agent: Diffbot
 User-agent: Doctom Monitor
 User-agent: DuckAssistBot
 User-agent: DuckAssistbot
 User-agent: Echobot Bot
 User-agent: FacebookBot
 User-agent: Factset_spyderbot
-User-agent: Fedicabot
 User-agent: Foregenix ThreatView/WebScan
 User-agent: FullStory
 User-agent: GPTBot
@@ -79,7 +81,6 @@ User-agent: ICC-Crawler
 User-agent: IndeedJobBot
 User-agent: InternetArchiveBot
 User-agent: Jagged Pixel UptimeBot
-User-agent: Jetpack
 User-agent: Kangaroo Bot
 User-agent: Kinsta
 User-agent: KlaviyoAIBot
@@ -103,7 +104,6 @@ User-agent: Monitage
 User-agent: MontasticMonitor
 User-agent: NETVIGIE
 User-agent: New Relic
-User-agent: NixStatsMonitoringBot
 User-agent: Nodeping
 User-agent: NostoCrawlerBot
 User-agent: OAI-SearchBot
@@ -144,12 +144,12 @@ User-agent: StatusCake
 User-agent: Synthetic Bot
 User-agent: TTD Content
 User-agent: Taboola
-User-agent: TavilyBot
 User-agent: Thousand Eyes Cloud Agent
 User-agent: Timpibot
 User-agent: Trendiction Bot
 User-agent: UpDownBot
 User-agent: Uptime LLC
+User-agent: Uptime Monitoring
 User-agent: UptimeBot
 User-agent: UptimeRobot
 User-agent: Uptimia
@@ -160,10 +160,8 @@ User-agent: Watchbot
 User-agent: WebsitePulseBot
 User-agent: Webstatus247
 User-agent: WormlyBot
-User-agent: Yahoo Ad Monitoring
 User-agent: Yahoo Japan
 User-agent: Yext Inc
-User-agent: YouBot
 User-agent: ZanistaBot
 User-agent: Zvelo
 User-agent: atlassian-bot
@@ -179,12 +177,12 @@ User-agent: kagi-fetcher
 User-agent: klaviyo
 User-agent: laion-huggingface-processor
 User-agent: logicmonitor
+User-agent: mediaboardbot
 User-agent: meta-externalagent
 User-agent: meta-externalfetcher
 User-agent: meta-webindexer
 User-agent: netEstate Imprint Crawler
 User-agent: omgili
-User-agent: webpagetest
 User-agent: webzio-extended
 Disallow: /
 
