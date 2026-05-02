@@ -56,6 +56,7 @@ User-agent: DuckAssistbot
 User-agent: Echobot Bot
 User-agent: FacebookBot
 User-agent: Factset_spyderbot
+User-agent: Fedicabot
 User-agent: Foregenix ThreatView/WebScan
 User-agent: FullStory
 User-agent: GPTBot
