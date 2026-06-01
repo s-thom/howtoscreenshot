@@ -1,5 +1,4 @@
 User-agent: 360Monitoring
-User-agent: AI Search
 User-agent: AI2Bot-DeepResearchEval
 User-agent: ActiveComply Bot
 User-agent: AddSearchBot
@@ -25,35 +24,33 @@ User-agent: Bing Ads
 User-agent: BlogVault
 User-agent: Bravebot
 User-agent: BrightEdge Bot
-User-agent: Browserbase
 User-agent: BugsNag
 User-agent: Bytespider
 User-agent: CCBot
 User-agent: Channel3Bot
 User-agent: ChatGLM-Spider
-User-agent: ChatGPT agent
 User-agent: ChatGPT-User
 User-agent: Checkly Bot
 User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: ClaudeBot
 User-agent: CloudVertexBot
-User-agent: Cloudflare Browser Rendering
-User-agent: Cloudflare Crawler
+User-agent: Cloudflare CustomerSLO Prober
 User-agent: Cloudflare Observatory Curly
 User-agent: Cloudflare-AutoRAG
 User-agent: Cludo
 User-agent: ContentKing
+User-agent: ContentSquare Static Resource Scraper
 User-agent: ContextualBot
 User-agent: Cotoyogi
 User-agent: Crazy Egg Bot
 User-agent: CriteoBot
 User-agent: Datenbank Crawler
 User-agent: Deepcrawl
+User-agent: Direqt Anomura
 User-agent: Doctom Monitor
 User-agent: DuckAssistBot
 User-agent: DuckAssistbot
-User-agent: Echobot Bot
 User-agent: FacebookBot
 User-agent: Factset_spyderbot
 User-agent: Foregenix ThreatView/WebScan
@@ -65,13 +62,13 @@ User-agent: Ghost Inspector
 User-agent: Google AdsBot
 User-agent: Google Adsense: Mediapartners-Google
 User-agent: Google Firebase
-User-agent: Google NotebookLM
 User-agent: Google Schema Markup Testing Tool
 User-agent: Google-CloudVertexBot
 User-agent: Google-Extended
 User-agent: Google-NotebookLM
 User-agent: Google-TravelAds-Live
 User-agent: GoogleOther
+User-agent: Grafana Synthetic Monitoring
 User-agent: Grafana's Synthetic Monitoring
 User-agent: HetrixTools
 User-agent: HostTracker
@@ -79,11 +76,11 @@ User-agent: Hotjar
 User-agent: IAS crawler
 User-agent: ICC Crawler
 User-agent: ICC-Crawler
+User-agent: Idealo
 User-agent: IndeedJobBot
 User-agent: InternetArchiveBot
 User-agent: Jagged Pixel UptimeBot
 User-agent: Kangaroo Bot
-User-agent: Kinsta
 User-agent: KlaviyoAIBot
 User-agent: LCC
 User-agent: LeikiBot
@@ -91,7 +88,7 @@ User-agent: LinerBot
 User-agent: LinkupBot
 User-agent: MagnetmeBot
 User-agent: Manus Bot
-User-agent: Medialogia Bot
+User-agent: MediaMonitoringBot
 User-agent: Mediatoolkitbot
 User-agent: Mediavine Medatada Parser
 User-agent: Meta-ExternalAds
@@ -132,6 +129,8 @@ User-agent: SE Ranking Bot
 User-agent: SalesViewerBot
 User-agent: SemrushBot-OCOB
 User-agent: Sentry Uptime Monitoring
+User-agent: Shap-User
+User-agent: ShapBot
 User-agent: Site24x7
 User-agent: SiteUpTimeBot
 User-agent: Slickstream
