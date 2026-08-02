@@ -1,12 +1,24 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
-      time: "19:00"
       timezone: "Pacific/Auckland"
     groups:
       all:
         patterns:
           - "*"
+    cooldown:
+      default-days: 7
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      timezone: "Pacific/Auckland"
+    groups:
+      all:
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 7

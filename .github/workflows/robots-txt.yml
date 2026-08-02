@@ -14,10 +14,10 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Create robots.txt
-        uses: s-thom/create-robots-txt-action@v1
+        uses: s-thom/create-robots-txt-action@70161b89572bd387476453c25f76e283578506a5 # v3.0.0
         with:
           output-file: public/robots.txt
           append-allow-rule: true
@@ -25,22 +25,18 @@ jobs:
             Chrome-Lighthouse
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_RADAR_API_TOKEN }}
           cloudflare-categories: |
-            AI Crawler
-            AI Search
-            AI Assistant
-            Search Engine Optinization
-            Advertising & Marketing
-            Monitoring & Analytics
-            Aggregator
-            Social Media Marketing
-          dark-visitors-api-token: ${{ secrets.DARK_VISITORS_API_TOKEN }}
-          dark-visitors-categories: |
-            AI Assistant
+            AI_CRAWLER
+            SEARCH_ENGINE_OPTIMIZATION
+            ADVERTISING_AND_MARKETING
+            MONITORING_AND_ANALYTICS
+            AGGREGATOR
+            SOCIAL_MEDIA_MARKETING
+          known-agents-api-token: ${{ secrets.DARK_VISITORS_API_TOKEN }}
+          known-agents-categories: |
             AI Data Scraper
-            AI Search Crawler
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           add-paths: |
             public/robots.txt
