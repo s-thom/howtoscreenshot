@@ -1,6 +1,3 @@
-/* eslint-env browser */
-/* eslint-disable no-restricted-globals */
-
 // Service worker to end all service workers.
 // Maybe one day I'll add offline again, but ultimately I find it to be too much trouble.
 // Often the same people come back to the site, and since they get the cached version it may
