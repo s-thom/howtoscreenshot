@@ -1,185 +1,187 @@
-User-agent: 360Monitoring
-User-agent: AI2Bot-DeepResearchEval
-User-agent: ActiveComply Bot
+User-agent: A360-Search
+User-agent: aa/1.0
+User-agent: AASA-Bot/
+User-agent: AccessStatus
+User-agent: ActiveComply
+User-agent: Adagiobot
 User-agent: AddSearchBot
-User-agent: AdsTxtCrawler
+User-agent: AddThis
+User-agent: adidxbot
+User-agent: AdsBot-Google
+User-agent: AdSensorBot
+User-agent: Advailo Kuma
+User-agent: AdvallyBot
+User-agent: AgencyToolsPro
+User-agent: AhrefsBot
+User-agent: AhrefsSiteAudit
+User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
-User-agent: Alertsite by Smartbear
-User-agent: Amazon AdBot
+User-agent: AirsoftdbBot
+User-agent: AlertSite
+User-agent: AlliAI/1.0
+User-agent: amazon-kendra-
+User-agent: AmazonAdBot
 User-agent: Amazonbot
-User-agent: Amzn-SearchBot
-User-agent: Amzn-User
-User-agent: Anomura
-User-agent: Applebot
+User-agent: Anchor Browser
 User-agent: Applebot-Extended
-User-agent: Audisto Crawler
-User-agent: Automaton
-User-agent: AwarioSmartBot
-User-agent: AzureAI-SearchBot
-User-agent: BestChange Bot
-User-agent: Better Uptime
-User-agent: BigScootsMonitor
-User-agent: BinaryCanary
-User-agent: Bing Ads
-User-agent: BlogVault
-User-agent: Bravebot
-User-agent: BrightEdge Bot
-User-agent: BugsNag
-User-agent: Bytespider
-User-agent: CCBot
-User-agent: Channel3Bot
-User-agent: ChatGLM-Spider
-User-agent: ChatGPT-User
-User-agent: Checkly Bot
-User-agent: Claude-SearchBot
-User-agent: Claude-User
-User-agent: ClaudeBot
-User-agent: CloudVertexBot
-User-agent: Cloudflare CustomerSLO Prober
-User-agent: Cloudflare Observatory Curly
-User-agent: Cloudflare-AutoRAG
-User-agent: Cludo
-User-agent: ContentKing
-User-agent: ContentSquare Static Resource Scraper
-User-agent: ContextualBot
-User-agent: Cotoyogi
-User-agent: Crazy Egg Bot
-User-agent: CriteoBot
-User-agent: Datenbank Crawler
-User-agent: Deepcrawl
-User-agent: Direqt Anomura
-User-agent: Doctom Monitor
-User-agent: DuckAssistBot
-User-agent: DuckAssistbot
-User-agent: FacebookBot
-User-agent: Factset_spyderbot
-User-agent: Foregenix ThreatView/WebScan
-User-agent: FullStory
-User-agent: GPTBot
-User-agent: GTmetrix
-User-agent: Gemini-Deep-Research
-User-agent: Ghost Inspector
-User-agent: Google AdsBot
-User-agent: Google Adsense: Mediapartners-Google
-User-agent: Google Firebase
-User-agent: Google Schema Markup Testing Tool
-User-agent: Google-CloudVertexBot
-User-agent: Google-Extended
-User-agent: Google-NotebookLM
-User-agent: Google-TravelAds-Live
-User-agent: GoogleOther
-User-agent: Grafana Synthetic Monitoring
-User-agent: Grafana's Synthetic Monitoring
-User-agent: HetrixTools
-User-agent: HostTracker
-User-agent: Hotjar
-User-agent: IAS crawler
-User-agent: ICC Crawler
-User-agent: ICC-Crawler
-User-agent: Idealo
-User-agent: IndeedJobBot
-User-agent: InternetArchiveBot
-User-agent: Jagged Pixel UptimeBot
-User-agent: Kangaroo Bot
-User-agent: KlaviyoAIBot
-User-agent: LCC
-User-agent: LeikiBot
-User-agent: LinerBot
-User-agent: LinkupBot
-User-agent: MagnetmeBot
-User-agent: Manus Bot
-User-agent: MediaMonitoringBot
-User-agent: Mediatoolkitbot
-User-agent: Mediavine Medatada Parser
-User-agent: Meta-ExternalAds
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
-User-agent: MirrorWebCrawler
-User-agent: MistralAI-User
-User-agent: MonSpark
-User-agent: Monitage
-User-agent: MontasticMonitor
-User-agent: NETVIGIE
-User-agent: New Relic
-User-agent: Nodeping
-User-agent: NostoCrawlerBot
-User-agent: OAI-SearchBot
-User-agent: Oh Dear
-User-agent: Onetrust CMP Scanner
-User-agent: Outbrain
-User-agent: PanguBot
-User-agent: Panopta
-User-agent: Parse.ly
-User-agent: Perplexity-User
-User-agent: PerplexityBot
-User-agent: PetalBot
-User-agent: PhindBot
-User-agent: PingPing Bot
-User-agent: Pingdom
-User-agent: PinterestBot
-User-agent: Poggio-Citations
-User-agent: Proximic
-User-agent: Pulsetic
-User-agent: QualifiedBot
-User-agent: Quantcastbot
-User-agent: Rackspace
-User-agent: Reelevant
-User-agent: SBIntuitionsBot
-User-agent: SE Ranking Bot
-User-agent: SalesViewerBot
-User-agent: SemrushBot-OCOB
-User-agent: Sentry Uptime Monitoring
-User-agent: Shap-User
-User-agent: ShapBot
-User-agent: Site24x7
-User-agent: SiteUpTimeBot
-User-agent: Slickstream
-User-agent: SolarWinds Observability
-User-agent: Spider
-User-agent: Splunk Synthetics
-User-agent: StatusCake
-User-agent: Synthetic Bot
-User-agent: TTD Content
-User-agent: Taboola
-User-agent: Thousand Eyes Cloud Agent
-User-agent: Timpibot
-User-agent: Trendiction Bot
-User-agent: UpDownBot
-User-agent: Uptime LLC
-User-agent: Uptime Monitoring
-User-agent: UptimeBot
-User-agent: UptimeRobot
-User-agent: Uptimia
-User-agent: UptrendsBot
-User-agent: VelenPublicWebCrawler
-User-agent: WPMUDEV Uptime Monitor 5.0
-User-agent: Watchbot
-User-agent: WebsitePulseBot
-User-agent: Webstatus247
-User-agent: WormlyBot
-User-agent: Yahoo Japan
-User-agent: Yext Inc
-User-agent: ZanistaBot
-User-agent: Zvelo
+User-agent: ArrowMonitor
+User-agent: artsdata-crawler
 User-agent: atlassian-bot
+User-agent: Attracta
+User-agent: Audisto Crawler
+User-agent: AutomatonHeadlessChrome
+User-agent: Awario
+User-agent: Barkrowler/
+User-agent: bedrockbot
+User-agent: BestChange
+User-agent: Better Stack
+User-agent: Better Uptime Bot
+User-agent: BigScootsMonitor
 User-agent: bigsur.ai
-User-agent: catchpoint
+User-agent: BigUpDataBot
+User-agent: BLEXBot
+User-agent: BlingERP
+User-agent: BlogVault/
+User-agent: BoardGamePrices Bot
+User-agent: BorderxBot
+User-agent: botify
+User-agent: BrightEdge Crawler
+User-agent: BrynsonComplianceBot
+User-agent: BugsNag
+User-agent: BuiltWith
+User-agent: Bytespider
+User-agent: Caliperbot/1.0
+User-agent: CapitalOneBot
+User-agent: Catchpoint
+User-agent: CCBot
+User-agent: channable/importer
+User-agent: ChatGLM-Spider
+User-agent: check-host.cc
+User-agent: Checkly
+User-agent: CheckView
+User-agent: CitibotSiteCrawler
+User-agent: ClaudeBot
+User-agent: Clickagy Intelligence Bot v2
+User-agent: Cloudflare Custom Hostname Verification
+User-agent: Cloudflare SpeedTest
+User-agent: Cloudflare Stream Webhook
+User-agent: cloudflare-csup
+User-agent: Cloudflare-Healthchecks
+User-agent: CloudFlare-Prefetch
+User-agent: Cloudflare-Purge/
+User-agent: Cloudflare-SSLDetector
+User-agent: Cloudflare-Traffic-Manager
+User-agent: Cloudflare-Validator
+User-agent: CloudflareBrowserRenderingCrawler/1.0
+User-agent: CloudflareDiagnostics
+User-agent: CloudflareRobotsAPI
+User-agent: Cloudtrellis
+User-agent: CloudVertexBot
+User-agent: cludo.com
 User-agent: cohere-training-data-crawler
+User-agent: CohereBot
+User-agent: Collapsify/
+User-agent: contentking
+User-agent: ContentSquare
+User-agent: ContextualBot
+User-agent: contxbot
+User-agent: CoostiBot
+User-agent: Cotoyogi
+User-agent: Cotoyogi/
+User-agent: Crazy Egg
+User-agent: CriteoBot/
+User-agent: Criticalcss.com/
+User-agent: CSpeedTP
+User-agent: curly-
+User-agent: CustomerSLO Prober
+User-agent: cXensebot/
+User-agent: Datadog
+User-agent: DataForSeoBot
+User-agent: Datenbank Crawler
 User-agent: deadlinkchecker
-User-agent: eMoney Advisor
-User-agent: elmah.io Uptime Monitoring
-User-agent: honeybadgerbot
+User-agent: DeepSeekBot
+User-agent: Digicert DCV
+User-agent: DigiCert DCV Bot
+User-agent: Dlc/
+User-agent: DMBrowser
+User-agent: DotBot
+User-agent: Doubaobot
+User-agent: easybill-ImportManager
+User-agent: elmahio-uptimebot
+User-agent: eMoneyBot/
+User-agent: EpivozCrawler/
+User-agent: eRepublik.tools
+User-agent: ERNIEBot
+User-agent: EvoUptimeBot/
+User-agent: EyeMonit
+User-agent: FacebookBot
+User-agent: factset_spyderbot
+User-agent: FDL Stats Bot
+User-agent: Fedica
+User-agent: FedReporterDataBot
+User-agent: FiscalNote
+User-agent: FishBot
+User-agent: Flowpane/1.0
+User-agent: Foregenix
+User-agent: FullStoryBot
+User-agent: Gatus
+User-agent: GeedoShopProductFinder
+User-agent: Ghost Inspector
+User-agent: GhostExplore
+User-agent: Google-AdWords-Express
+User-agent: Google-Adwords-Instant
+User-agent: Google-Display-Ads-Bot
+User-agent: Google-Extended
+User-agent: Google-Firebase
+User-agent: Google-Structured-Data-Testing
+User-agent: Google-TravelAds-Live
+User-agent: GoogleAssociationService
+User-agent: GoogleOther
+User-agent: GPTBot
+User-agent: grafana/synthetic-monitoring
+User-agent: GrapeshotCrawler
+User-agent: GroovinaAdsbot
+User-agent: GTmetrix
+User-agent: GuestpostsBot/
+User-agent: HelloworkJobPostingBot
+User-agent: HetrixTools
+User-agent: Honeybadger Uptime Check
+User-agent: http://easyurl.net/monitoring
+User-agent: http://www.binarycanary.com
+User-agent: http://www.ezoic.com/bot.html
+User-agent: ICC-Crawler
 User-agent: imageSpider
-User-agent: kagi-fetcher
-User-agent: klaviyo
+User-agent: InteractiveAdvertisingBureau
+User-agent: James BOT
+User-agent: Kangaroo Bot
+User-agent: KimiBot
+User-agent: KimiCrawler
 User-agent: laion-huggingface-processor
-User-agent: logicmonitor
-User-agent: mediaboardbot
+User-agent: LCC
+User-agent: Leikibot
+User-agent: lumar
+User-agent: Mediapartners-Google
+User-agent: Mediatoolkitbot
 User-agent: meta-externalagent
-User-agent: meta-externalfetcher
-User-agent: meta-webindexer
+User-agent: micro-crawl
+User-agent: MistralBot
+User-agent: monitoring360
+User-agent: Monsidobot
+User-agent: MoonshotBot
+User-agent: MoonSpider
 User-agent: netEstate Imprint Crawler
+User-agent: netEstate NE Crawler
 User-agent: omgili
+User-agent: PanguBot
+User-agent: QwenBot
+User-agent: RSiteAuditor
+User-agent: SalamandraVLM
+User-agent: SBIntuitionsBot
+User-agent: Spider
+User-agent: synthetic-monitoring-agent
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: w4mwnpbXf3MFAbxOkJRw
 User-agent: webzio-extended
 Disallow: /
 
