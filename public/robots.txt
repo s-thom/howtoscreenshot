@@ -65,6 +65,7 @@ User-agent: Clickagy Intelligence Bot v2
 User-agent: Cloudflare Custom Hostname Verification
 User-agent: Cloudflare SpeedTest
 User-agent: Cloudflare Stream Webhook
+User-agent: Cloudflare-AgentReadiness
 User-agent: cloudflare-csup
 User-agent: Cloudflare-Healthchecks
 User-agent: CloudFlare-Prefetch
@@ -106,6 +107,7 @@ User-agent: Dlc/
 User-agent: DMBrowser
 User-agent: DotBot
 User-agent: Doubaobot
+User-agent: DrugCardBot
 User-agent: easybill-ImportManager
 User-agent: elmahio-uptimebot
 User-agent: eMoneyBot/
@@ -144,7 +146,6 @@ User-agent: GroovinaAdsbot
 User-agent: GTmetrix
 User-agent: GuestpostsBot/
 User-agent: HelloworkJobPostingBot
-User-agent: HetrixTools
 User-agent: Honeybadger Uptime Check
 User-agent: http://easyurl.net/monitoring
 User-agent: http://www.binarycanary.com
@@ -174,6 +175,7 @@ User-agent: netEstate NE Crawler
 User-agent: omgili
 User-agent: PanguBot
 User-agent: QwenBot
+User-agent: Reflectionbot
 User-agent: RSiteAuditor
 User-agent: SalamandraVLM
 User-agent: SBIntuitionsBot
