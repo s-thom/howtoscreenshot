@@ -32,6 +32,7 @@ User-agent: Audisto Crawler
 User-agent: AutomatonHeadlessChrome
 User-agent: Awario
 User-agent: Barkrowler/
+User-agent: BeansLLM-CorpusBot
 User-agent: bedrockbot
 User-agent: BestChange
 User-agent: Better Stack
@@ -101,6 +102,7 @@ User-agent: DataForSeoBot
 User-agent: Datenbank Crawler
 User-agent: deadlinkchecker
 User-agent: DeepSeekBot
+User-agent: DentalPresenceAuditBot
 User-agent: Digicert DCV
 User-agent: DigiCert DCV Bot
 User-agent: Dlc/
@@ -144,13 +146,13 @@ User-agent: grafana/synthetic-monitoring
 User-agent: GrapeshotCrawler
 User-agent: GroovinaAdsbot
 User-agent: GTmetrix
-User-agent: GuestpostsBot/
-User-agent: HelloworkJobPostingBot
 User-agent: Honeybadger Uptime Check
 User-agent: http://easyurl.net/monitoring
 User-agent: http://www.binarycanary.com
 User-agent: http://www.ezoic.com/bot.html
+User-agent: Hunyuan
 User-agent: ICC-Crawler
+User-agent: ImageBot
 User-agent: imageSpider
 User-agent: InteractiveAdvertisingBureau
 User-agent: James BOT
@@ -175,7 +177,8 @@ User-agent: netEstate NE Crawler
 User-agent: omgili
 User-agent: PanguBot
 User-agent: QwenBot
-User-agent: Reflectionbot
+User-agent: recraft-image-dataset
+User-agent: ReflectionBot
 User-agent: RSiteAuditor
 User-agent: SalamandraVLM
 User-agent: SBIntuitionsBot
@@ -185,6 +188,7 @@ User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: w4mwnpbXf3MFAbxOkJRw
 User-agent: webzio-extended
+User-agent: YiBot
 Disallow: /
 
 User-agent: *
