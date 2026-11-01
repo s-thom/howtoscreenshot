@@ -57,6 +57,6 @@ A big thank you to the following people for their contributions to this project:
   - [ ] Images
 - [x] Steam
 - [x] Nintendo Switch
-- [ ] Steam Deck
+- [x] Steam Deck
 - [ ] 3rd party programs (?)
 - [ ] Webpages (browser extension) (?)
