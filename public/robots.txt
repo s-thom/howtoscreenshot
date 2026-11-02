@@ -1,13 +1,14 @@
+User-agent: A11yPulse
 User-agent: A360-Search
 User-agent: aa/1.0
 User-agent: AASA-Bot/
 User-agent: AccessStatus
 User-agent: ActiveComply
 User-agent: Adagiobot
+User-agent: AddrevenueBot
 User-agent: AddSearchBot
 User-agent: AddThis
 User-agent: adidxbot
-User-agent: AdsBot-Google
 User-agent: AdSensorBot
 User-agent: Advailo Kuma
 User-agent: AdvallyBot
@@ -37,6 +38,7 @@ User-agent: bedrockbot
 User-agent: BestChange
 User-agent: Better Stack
 User-agent: Better Uptime Bot
+User-agent: BigmomoWatch
 User-agent: BigScootsMonitor
 User-agent: bigsur.ai
 User-agent: BigUpDataBot
@@ -44,6 +46,7 @@ User-agent: BLEXBot
 User-agent: BlingERP
 User-agent: BlogVault/
 User-agent: BoardGamePrices Bot
+User-agent: BoltAudit/1.0*
 User-agent: BorderxBot
 User-agent: botify
 User-agent: BrightEdge Crawler
@@ -91,65 +94,24 @@ User-agent: CoostiBot
 User-agent: Cotoyogi
 User-agent: Cotoyogi/
 User-agent: Crazy Egg
+User-agent: CressivePrivacyBot/1.0
 User-agent: CriteoBot/
 User-agent: Criticalcss.com/
 User-agent: CSpeedTP
 User-agent: curly-
 User-agent: CustomerSLO Prober
-User-agent: cXensebot/
-User-agent: Datadog
-User-agent: DataForSeoBot
 User-agent: Datenbank Crawler
-User-agent: deadlinkchecker
 User-agent: DeepSeekBot
-User-agent: DentalPresenceAuditBot
 User-agent: Digicert DCV
-User-agent: DigiCert DCV Bot
-User-agent: Dlc/
-User-agent: DMBrowser
-User-agent: DotBot
 User-agent: Doubaobot
-User-agent: DrugCardBot
-User-agent: easybill-ImportManager
-User-agent: elmahio-uptimebot
-User-agent: eMoneyBot/
-User-agent: EpivozCrawler/
-User-agent: eRepublik.tools
+User-agent: ElevenlabsCrawler
 User-agent: ERNIEBot
-User-agent: EvoUptimeBot/
-User-agent: EyeMonit
 User-agent: FacebookBot
-User-agent: factset_spyderbot
-User-agent: FDL Stats Bot
-User-agent: Fedica
-User-agent: FedReporterDataBot
-User-agent: FiscalNote
-User-agent: FishBot
-User-agent: Flowpane/1.0
-User-agent: Foregenix
-User-agent: FullStoryBot
-User-agent: Gatus
-User-agent: GeedoShopProductFinder
-User-agent: Ghost Inspector
-User-agent: GhostExplore
-User-agent: Google-AdWords-Express
-User-agent: Google-Adwords-Instant
-User-agent: Google-Display-Ads-Bot
 User-agent: Google-Extended
-User-agent: Google-Firebase
-User-agent: Google-Structured-Data-Testing
-User-agent: Google-TravelAds-Live
-User-agent: GoogleAssociationService
 User-agent: GoogleOther
 User-agent: GPTBot
-User-agent: grafana/synthetic-monitoring
-User-agent: GrapeshotCrawler
-User-agent: GroovinaAdsbot
-User-agent: GTmetrix
 User-agent: Honeybadger Uptime Check
-User-agent: http://easyurl.net/monitoring
 User-agent: http://www.binarycanary.com
-User-agent: http://www.ezoic.com/bot.html
 User-agent: Hunyuan
 User-agent: ICC-Crawler
 User-agent: ImageBot
@@ -161,10 +123,6 @@ User-agent: KimiBot
 User-agent: KimiCrawler
 User-agent: laion-huggingface-processor
 User-agent: LCC
-User-agent: Leikibot
-User-agent: lumar
-User-agent: Mediapartners-Google
-User-agent: Mediatoolkitbot
 User-agent: meta-externalagent
 User-agent: micro-crawl
 User-agent: MistralBot
@@ -173,20 +131,16 @@ User-agent: Monsidobot
 User-agent: MoonshotBot
 User-agent: MoonSpider
 User-agent: netEstate Imprint Crawler
-User-agent: netEstate NE Crawler
 User-agent: omgili
 User-agent: PanguBot
 User-agent: QwenBot
 User-agent: recraft-image-dataset
 User-agent: ReflectionBot
-User-agent: RSiteAuditor
 User-agent: SalamandraVLM
 User-agent: SBIntuitionsBot
 User-agent: Spider
-User-agent: synthetic-monitoring-agent
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
-User-agent: w4mwnpbXf3MFAbxOkJRw
 User-agent: webzio-extended
 User-agent: YiBot
 Disallow: /
