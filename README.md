@@ -34,6 +34,7 @@ A big thank you to the following people for their contributions to this project:
 - [/u/Charlie7Mason](https://www.reddit.com/user/Charlie7Mason/) and [@bem13](https://github.com/bem13): Suggestions for the Windows instructions
 - [@IsaacHatton](https://github.com/IsaacHatton): Adding basic JS platform detection on the homepage
 - [@infinity-atom](https://github.com/infinity-atom): Adding ChromeOS instructions
+- [@havaianasdestruido](https://github.com/havaianasdestruido): Adding Steam Deck instructions
 
 ### Things to work on
 
