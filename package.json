@@ -4,6 +4,7 @@
   "description": "A website help people screenshot things",
   "main": " ",
   "scripts": {
+    "build": "echo \"hello world\"",
     "test": "npm run prettier -- --check",
     "lint": "eslint",
     "prettier": "prettier \"public/**/*.{js,html,css,json,svg}\"",
